@@ -1,6 +1,7 @@
 # Syncing a Local Markdown Notebook Folder with GitHub
 
-This document explains how to sync an existing local folder containing Markdown files (`~/notebook`) with a GitHub repository using Git and SSH. It assumes no prior experience with Git.
+This document explains how to sync an existing local folder containing Markdown files (`~/notebook`) with a GitHub repository using Git and SSH.
+It assumes no prior experience with the creation of a repository. push, pull and sync commands in Git.
 
 ---
 
@@ -14,7 +15,7 @@ This document explains how to sync an existing local folder containing Markdown 
 6. Connecting the Local Notebook Folder to GitHub
 7. Day-to-Day Sync Workflow
 8. One-Line Sync Command
-9. Optional Shell Alias
+9. Optional Shell Alias (bash & zsh)
 
 ---
 
