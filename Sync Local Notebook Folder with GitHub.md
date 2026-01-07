@@ -213,7 +213,3 @@ Then sync with:
 ```bash
 gsync
 ```
-
----
-
-**End of export**
