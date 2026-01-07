@@ -1,0 +1,11 @@
+Use Qmv (quick move) to Rename Files ✓
+install renameutils:
+sudo apt install renameutils
+
+when installed use the "qmv" cmd. Open a terminal in the folder holding the files you want to rename and invoke:
+qmv
+
+It will open the filenames in your text editor. You will see 2 columns. The one on the right is where you edit the names
+
+more help: https://www.makeuseof.com/batch-rename-files-in-linux/
+
