@@ -1,7 +1,3 @@
-Below is a **clean Markdown export** of this chat, with **all instances of “notes” replaced by “notebook”**, and a **Table of Contents** added. You can copy this directly into a `.md` file (for example, `github-notebook-sync.md`) and store it inside your `~/notebook` repository.
-
----
-
 # Syncing a Local Markdown Notebook Folder with GitHub
 
 This document explains how to sync an existing local folder containing Markdown files (`~/notebook`) with a GitHub repository using Git and SSH. It assumes no prior experience with Git.
