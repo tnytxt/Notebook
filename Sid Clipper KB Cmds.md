@@ -1,4 +1,4 @@
-Open Obsidian Clipper  
+Open obsidian clipper  
 `Alt+Shift+O`  
 Toggle highlighter mode  
 `Alt+Shift+H`  
