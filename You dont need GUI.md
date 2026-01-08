@@ -76,7 +76,7 @@ As a computer expert, we want to be more efficient and do our jobs better. We kn
 Copy `readme.txt` to the `documents` directory
 
 ```shell
-$ cp readme.txt documents/
+cp readme.txt documents/
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -86,11 +86,11 @@ $ cp readme.txt documents/
 **STOP RIGHT CLICKING AND DUPLICATE A FILE** :-1:
 
 ```shell
-$ cp readme.txt readme.bak.txt
+cp readme.txt readme.bak.txt
 ```
 More advanced:
 ```shell
-$ cp readme{,.bak}.txt
+cp readme{,.bak}.txt
 # Note: learn how the {} works with touch foo{1,2,3}.txt and see what happens.
 ```
 [Go to table of contents 🔼](#quick-links)
@@ -103,9 +103,9 @@ $ cp readme{,.bak}.txt
 Copy `myMusic` directory to the `myMedia` directory
 
 ```shell
-$ cp -a myMusic myMedia/
+cp -a myMusic myMedia/
 # or
-$ cp -a myMusic/ myMedia/myMusic/
+cp -a myMusic/ myMedia/myMusic/
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -115,9 +115,9 @@ $ cp -a myMusic/ myMedia/myMusic/
 **STOP RIGHT CLICKING AND DUPLICATE A DIRECTORY** :-1:
 
 ```shell
-$ cp -a myMusic/ myMedia/
+cp -a myMusic/ myMedia/
 # or if `myMedia` folder doesn't exist
-$ cp -a myMusic myMedia/
+cp -a myMusic myMedia/
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -127,7 +127,7 @@ $ cp -a myMusic myMedia/
 **STOP DRAG AND DROPPING A FILE, OR CMD/CTRL + X, CMD/CTRL + V A FILE** :-1:
 
 ```shell
-$ mv readme.txt documents/
+mv readme.txt documents/
 ```
 
 **Always** use a trailing slash when moving files, [for this reason](http://unix.stackexchange.com/a/50533).
@@ -139,7 +139,7 @@ $ mv readme.txt documents/
 **STOP RIGHT CLICKING AND RENAME A FILE** :-1:
 
 ```shell
-$ mv readme.txt README.md
+mv readme.txt README.md
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -149,9 +149,9 @@ $ mv readme.txt README.md
 **STOP DRAG AND DROPPING A DIRECTORY, OR CMD/CTRL + X, CMD/CTRL + V A DIRECTORY** :-1:
 
 ```shell
-$ mv myMedia myMusic/
+mv myMedia myMusic/
 # or
-$ mv myMedia/ myMusic/myMedia
+mv myMedia/ myMusic/myMedia
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -161,7 +161,7 @@ $ mv myMedia/ myMusic/myMedia
 **STOP RIGHT CLICKING AND RENAME A DIRECTORY** :-1:
 
 ```shell
-$ mv myMedia/ myMusic/
+mv myMedia/ myMusic/
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -171,7 +171,7 @@ $ mv myMedia/ myMusic/
 **STOP DRAG AND DROPPING TO MERGE DIRECTORIES** :-1:
 
 ```shell
-$ rsync -a /images/ /images2/	# note: may over-write files with the same name, so be careful!
+rsync -a /images/ /images2/	# note: may over-write files with the same name, so be careful!
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -181,9 +181,9 @@ $ rsync -a /images/ /images2/	# note: may over-write files with the same name, s
 **STOP RIGHT CLICKING AND CREATE A NEW FILE** :-1:
 
 ```shell
-$ touch 'new file'    # updates the file's access and modification timestamp if it already exists
+touch 'new file'    # updates the file's access and modification timestamp if it already exists
 # or
-$ > 'new file'        # note: erases the content if it already exists
+> 'new file'        # note: erases the content if it already exists
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -193,9 +193,9 @@ $ > 'new file'        # note: erases the content if it already exists
 **STOP RIGHT CLICKING AND CREATE A NEW DIRECTORY** :-1:
 
 ```shell
-$ mkdir 'untitled folder'
+mkdir 'untitled folder'
 # or
-$ mkdir -p 'path/may/not/exist/untitled folder'
+mkdir -p 'path/may/not/exist/untitled folder'
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -205,7 +205,7 @@ $ mkdir -p 'path/may/not/exist/untitled folder'
 **STOP RIGHT CLICKING AND SHOW FILE/directory INFO** :-1:
 
 ```shell
-$ du -sh node_modules/
+du -sh node_modules/
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -215,8 +215,8 @@ $ du -sh node_modules/
 **STOP RIGHT CLICKING AND SHOW FILE/DIRECTORY INFO** :-1:
 
 ```shell
-$ stat -x readme.md   # on macOS
-$ stat readme.md      # on Linux
+stat -x readme.md   # on macOS
+stat readme.md      # on Linux
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -226,9 +226,9 @@ $ stat readme.md      # on Linux
 **STOP DOUBLE CLICKING ON A FILE** :-1:
 
 ```shell
-$ xdg-open file   # on Linux
-$ open file       # on MacOS
-$ start file      # on Windows
+xdg-open file   # on Linux
+open file       # on MacOS
+start file      # on Windows
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -238,7 +238,7 @@ $ start file      # on Windows
 **STOP RIGHT CLICKING AND OPEN WITH** :-1:
 
 ```shell
-$ open -a appName file
+open -a appName file
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -248,7 +248,7 @@ $ open -a appName file
 **STOP RIGHT CLICKING AND COMPRESS DIRECTORY** :-1:
 
 ```shell
-$ zip -r archive_name.zip folder_to_compress
+zip -r archive_name.zip folder_to_compress
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -258,7 +258,7 @@ $ zip -r archive_name.zip folder_to_compress
 **STOP RIGHT CLICKING AND UNCOMPRESS DIRECTORY** :-1:
 
 ```shell
-$ unzip archive_name.zip
+unzip archive_name.zip
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -268,11 +268,11 @@ $ unzip archive_name.zip
 **STOP RIGHT CLICKING AND UNCOMPRESS DIRECTORY** :-1:
 
 ```shell
-$ unar archive_name.zip
-$ unar archive_name.7z
-$ unar archive_name.rar
-$ unar archive_name.ISO
-$ unar archive_name.tar.gz
+unar archive_name.zip
+unar archive_name.7z
+unar archive_name.rar
+unar archive_name.ISO
+unar archive_name.tar.gz
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -282,9 +282,9 @@ $ unar archive_name.tar.gz
 **STOP USING WinRAR** :-1:
 
 ```shell
-$ zipinfo archive_name.zip
+zipinfo archive_name.zip
 # or
-$ unzip -l archive_name.zip
+unzip -l archive_name.zip
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -294,11 +294,11 @@ $ unzip -l archive_name.zip
 **STOP USING WinRAR** :-1:
 
 ```shell
-$ lsar -l archive_name.zip
-$ lsar -l archive_name.7z
-$ lsar -l archive_name.ISO
-$ lsar -l archive_name.rar
-$ lsar -l archive_name.tar.gz
+lsar -l archive_name.zip
+lsar -l archive_name.7z
+lsar -l archive_name.ISO
+lsar -l archive_name.rar
+lsar -l archive_name.tar.gz
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -308,7 +308,7 @@ $ lsar -l archive_name.tar.gz
 **STOP RIGHT CLICKING AND DELETE A FILE PERMANENTLY** :-1:
 
 ```shell
-$ rm my_useless_file
+rm my_useless_file
 ```
 
 **IMPORTANT**: The `rm` command deletes `my_useless_file` permanently, which is equivalent to move `my_useless_file` to Recycle Bin and hit Empty Recycle Bin.
@@ -320,7 +320,7 @@ $ rm my_useless_file
 **STOP RIGHT CLICKING AND DELETE A DIRECTORY PERMANENTLY** :-1:
 
 ```shell
-$ rm -r my_useless_folder
+rm -r my_useless_folder
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -328,7 +328,7 @@ $ rm -r my_useless_folder
 ## remove all files of certain criteria
 
 ```shell
-$ find . -name "*.bak" -type f -delete
+find . -name "*.bak" -type f -delete
 ```
 
 **IMPORTANT**: run `find . -name "*.bak" -type f` first to see exactly which files you will remove.
@@ -340,9 +340,9 @@ $ find . -name "*.bak" -type f -delete
 **STOP OPENING YOUR FINDER OR FILE EXPLORER** :-1:
 
 ```shell
-$ ls my_folder        # Simple
-$ ls -la my_folder    # -l: show in list format. -a: show all files, including hidden. -la combines those options.
-$ ls -alrth my_folder # -r: reverse output. -t: sort by time (modified). -h: output human-readable sizes.
+ls my_folder        # Simple
+ls -la my_folder    # -l: show in list format. -a: show all files, including hidden. -la combines those options.
+ls -alrth my_folder # -r: reverse output. -t: sort by time (modified). -h: output human-readable sizes.
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -352,8 +352,8 @@ $ ls -alrth my_folder # -r: reverse output. -t: sort by time (modified). -h: out
 **STOP OPENING YOUR FINDER OR FILE EXPLORER** :-1:
 
 ```shell
-$ tree                                                        # on Linux
-$ find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'      # on MacOS
+tree                                                        # on Linux
+find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'      # on MacOS
 # Note: install homebrew (https://brew.sh) to be able to use (some) Linux utilities such as tree.
 # brew install tree
 ```
@@ -367,7 +367,7 @@ $ find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'      # on MacOS
 Find all files modified more than 5 days ago
 
 ```shell
-$ find my_folder -mtime +5
+find my_folder -mtime +5
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -379,12 +379,12 @@ $ find my_folder -mtime +5
 Display a text calendar
 
 ```shell
-$ cal
+cal
 ```
 Display selected month and year calendar
 
 ```shell
-$ cal 11 2018
+cal 11 2018
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -396,14 +396,14 @@ $ cal 11 2018
 What is today's date?
 
 ```shell
-$ date +%m/%d/%Y
+date +%m/%d/%Y
 ```
 
 What about a week from now?
 
 ```shell
-$ date -d "+7 days"                                           # on Linux
-$ date -j -v+7d                                               # on MacOS
+date -d "+7 days"                                           # on Linux
+date -j -v+7d                                               # on MacOS
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -413,7 +413,7 @@ $ date -j -v+7d                                               # on MacOS
 **STOP USING CALCULATOR WIDGET** :-1:
 
 ```shell
-$ bc -l
+bc -l
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -423,7 +423,7 @@ $ bc -l
 **STOP CTRL + ALT + DELETE and choose the program to kill** :-1:
 
 ```shell
-$ killall -9 program_name
+killall -9 program_name
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -433,7 +433,7 @@ $ killall -9 program_name
 **STOP OPENING A BROWSER** :-1:
 
 ```shell
-$ curl -i umair.surge.sh
+curl -i umair.surge.sh
 # curl's -i (--include) option includes HTTP response headers in its output.
 ```
 [Go to table of contents 🔼](#quick-links)
@@ -444,9 +444,9 @@ $ curl -i umair.surge.sh
 **STOP DOUBLE CLICKING A FILE** :-1:
 
 ```shell
-$ cat apps/settings.py
+cat apps/settings.py
 # if the file is too big to fit on one page, you can use a 'pager' (less) which shows you one page at a time.
-$ less apps/settings.py
+less apps/settings.py
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -456,7 +456,7 @@ $ less apps/settings.py
 **STOP CMD/CTRL + F IN A FILE** :-1:
 
 ```shell
-$ grep -i "Query" file.txt
+grep -i "Query" file.txt
 ```
 
 ![grep](./grep.jpg)
@@ -469,7 +469,7 @@ $ grep -i "Query" file.txt
 **STOP CMD/CTRL + F IN A DIRECTORY** :-1:
 
 ```shell
-$ ripgrep -i "Query"
+ripgrep -i "Query"
 # brew install ripgrep
 ```
 [Go to table of contents 🔼](#quick-links)
@@ -480,7 +480,7 @@ $ ripgrep -i "Query"
 **STOP USING PREVIEW** :-1:
 
 ```shell
-$ imgcat image.png
+imgcat image.png
 # Note: requires iTerm2 terminal.
 ```
 [Go to table of contents 🔼](#quick-links)
@@ -491,7 +491,7 @@ $ imgcat image.png
 **STOP RIGHT CLICKING DISK ICON OR OPENING DISK UTILITY** :-1:
 
 ```shell
-$ df -h
+df -h
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -501,11 +501,11 @@ $ df -h
 **STOP OPENING YOUR ACTIVITY MONITOR OR TASK MANAGER** :-1:
 
 ```shell
-$ top
+top
 ```
 if you want some more details:
 ```shell
-$ htop
+htop
 ```
 
 [Go to table of contents 🔼](#quick-links)
@@ -514,7 +514,7 @@ $ htop
 ## know whether your computer is under load, and whether it's due to memory or CPU
 
 ```shell
-$ glances
+glances
 # brew install glances
 ```
 [Go to table of contents 🔼](#quick-links)
@@ -526,9 +526,9 @@ This can be useful when you're patching a server that is accessed via SSH and yo
 
 ```shell
 # poweroff
-$ sudo shutdown -h now
+sudo shutdown -h now
 # reboot
-$ sudo shutdown -r now
+sudo shutdown -r now
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -536,7 +536,7 @@ $ sudo shutdown -r now
 ## locate USB drives
 
 ```shell
-$ df
+df
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -544,7 +544,7 @@ $ df
 ## unmount USB drives
 
 ```shell
-$ sudo umount /dev/sdb1
+sudo umount /dev/sdb1
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -553,11 +553,11 @@ $ sudo umount /dev/sdb1
 
 ```shell
 # FAT32
-$ sudo mkfs.vfat /dev/sdb1
+sudo mkfs.vfat /dev/sdb1
 # NTFS
-$ sudo mkfs.ntfs /dev/sdb1
+sudo mkfs.ntfs /dev/sdb1
 # exFAT
-$ sudo mkfs.exfat /dev/sdb1
+sudo mkfs.exfat /dev/sdb1
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -565,7 +565,7 @@ $ sudo mkfs.exfat /dev/sdb1
 ## check USB format
 
 ```shell
-$ sudo fsck /dev/sdb1
+sudo fsck /dev/sdb1
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -575,7 +575,7 @@ $ sudo fsck /dev/sdb1
 **STOP CLICKING THE FILES ONE BY ONE** :-1:
 
 ```shell
-$ for FILE in *; do echo $FILE; done
+for FILE in *; do echo $FILE; done
 ```
 [Go to table of contents 🔼](#quick-links)
 
@@ -584,8 +584,8 @@ $ for FILE in *; do echo $FILE; done
 **STOP USING NETWORK UTILITY**
 
 ```shell
-$ nc -vz www.google.com 443
-$ nc -vz 1.1.1.1 53
+nc -vz www.google.com 443
+nc -vz 1.1.1.1 53
 ```
 
 [Go to table of contents 🔼](#quick-links)
@@ -595,7 +595,7 @@ $ nc -vz 1.1.1.1 53
 **STOP USING NETWORK UTILITY**
 
 ```shell
-$ dig www.google.com
+dig www.google.com
 ```
 
 [Go to table of contents 🔼](#quick-links)
@@ -605,7 +605,7 @@ $ dig www.google.com
 **STOP USING NETWORK UTILITY AND THE WEBSITE OF DOMAIN REGISTRATION PROVIDERS**
 
 ```shell
-$ whois www.google.com
+whois www.google.com
 ```
 
 [Go to table of contents 🔼](#quick-links)
