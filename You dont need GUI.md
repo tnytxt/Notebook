@@ -71,19 +71,19 @@ As a computer expert, we want to be more efficient and do our jobs better. We kn
 
 ## copy a file
 
-**STOP DRAG AND DROPPING A FILE, OR CMD/CTRL + C, CMD/CTRL + V A FILE** :-1:
+**STOP DRAG AND DROPPING A FILE, OR CMD/CTRL + C, CMD/CTRL + V A FILE**
 
 Copy `readme.txt` to the `documents` directory
 
 ```shell
 cp readme.txt documents/
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## duplicate a file
 
-**STOP RIGHT CLICKING AND DUPLICATE A FILE** :-1:
+**STOP RIGHT CLICKING AND DUPLICATE A FILE**
 
 ```shell
 cp readme.txt readme.bak.txt
@@ -93,12 +93,12 @@ More advanced:
 cp readme{,.bak}.txt
 # Note: learn how the {} works with touch foo{1,2,3}.txt and see what happens.
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## copy a directory
 
-**STOP DRAG AND DROPPING A DIRECTORY, OR CMD/CTRL + C, CMD/CTRL + V A DIRECTORY** :-1:
+**STOP DRAG AND DROPPING A DIRECTORY, OR CMD/CTRL + C, CMD/CTRL + V A DIRECTORY**
 
 Copy `myMusic` directory to the `myMedia` directory
 
@@ -107,24 +107,24 @@ cp -a myMusic myMedia/
 # or
 cp -a myMusic/ myMedia/myMusic/
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## duplicate a directory
 
-**STOP RIGHT CLICKING AND DUPLICATE A DIRECTORY** :-1:
+**STOP RIGHT CLICKING AND DUPLICATE A DIRECTORY**
 
 ```shell
 cp -a myMusic/ myMedia/
 # or if `myMedia` folder doesn't exist
 cp -a myMusic myMedia/
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## move a file
 
-**STOP DRAG AND DROPPING A FILE, OR CMD/CTRL + X, CMD/CTRL + V A FILE** :-1:
+**STOP DRAG AND DROPPING A FILE, OR CMD/CTRL + X, CMD/CTRL + V A FILE**
 
 ```shell
 mv readme.txt documents/
@@ -132,140 +132,140 @@ mv readme.txt documents/
 
 **Always** use a trailing slash when moving files, [for this reason](http://unix.stackexchange.com/a/50533).
 
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 ## rename a file
 
-**STOP RIGHT CLICKING AND RENAME A FILE** :-1:
+**STOP RIGHT CLICKING AND RENAME A FILE**
 
 ```shell
 mv readme.txt README.md
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## move a directory
 
-**STOP DRAG AND DROPPING A DIRECTORY, OR CMD/CTRL + X, CMD/CTRL + V A DIRECTORY** :-1:
+**STOP DRAG AND DROPPING A DIRECTORY, OR CMD/CTRL + X, CMD/CTRL + V A DIRECTORY**
 
 ```shell
 mv myMedia myMusic/
 # or
 mv myMedia/ myMusic/myMedia
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## rename a directory
 
-**STOP RIGHT CLICKING AND RENAME A DIRECTORY** :-1:
+**STOP RIGHT CLICKING AND RENAME A DIRECTORY**
 
 ```shell
 mv myMedia/ myMusic/
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## merge directories
 
-**STOP DRAG AND DROPPING TO MERGE DIRECTORIES** :-1:
+**STOP DRAG AND DROPPING TO MERGE DIRECTORIES**
 
 ```shell
 rsync -a /images/ /images2/	# note: may over-write files with the same name, so be careful!
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## create a new file
 
-**STOP RIGHT CLICKING AND CREATE A NEW FILE** :-1:
+**STOP RIGHT CLICKING AND CREATE A NEW FILE**
 
 ```shell
 touch 'new file'    # updates the file's access and modification timestamp if it already exists
 # or
 > 'new file'        # note: erases the content if it already exists
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## create a new directory
 
-**STOP RIGHT CLICKING AND CREATE A NEW DIRECTORY** :-1:
+**STOP RIGHT CLICKING AND CREATE A NEW DIRECTORY**
 
 ```shell
 mkdir 'untitled folder'
 # or
 mkdir -p 'path/may/not/exist/untitled folder'
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## show file/directory size
 
-**STOP RIGHT CLICKING AND SHOW FILE/directory INFO** :-1:
+**STOP RIGHT CLICKING AND SHOW FILE/directory INFO**
 
 ```shell
 du -sh node_modules/
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## show file/directory info
 
-**STOP RIGHT CLICKING AND SHOW FILE/DIRECTORY INFO** :-1:
+**STOP RIGHT CLICKING AND SHOW FILE/DIRECTORY INFO**
 
 ```shell
 stat -x readme.md   # on macOS
 stat readme.md      # on Linux
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## open a file with the default program
 
-**STOP DOUBLE CLICKING ON A FILE** :-1:
+**STOP DOUBLE CLICKING ON A FILE**
 
 ```shell
 xdg-open file   # on Linux
 open file       # on MacOS
 start file      # on Windows
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## open a file in any application
 
-**STOP RIGHT CLICKING AND OPEN WITH** :-1:
+**STOP RIGHT CLICKING AND OPEN WITH**
 
 ```shell
 open -a appName file
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## zip a directory
 
-**STOP RIGHT CLICKING AND COMPRESS DIRECTORY** :-1:
+**STOP RIGHT CLICKING AND COMPRESS DIRECTORY**
 
 ```shell
 zip -r archive_name.zip folder_to_compress
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## unzip a directory
 
-**STOP RIGHT CLICKING AND UNCOMPRESS DIRECTORY** :-1:
+**STOP RIGHT CLICKING AND UNCOMPRESS DIRECTORY**
 
 ```shell
 unzip archive_name.zip
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## decompress files of any format
 
-**STOP RIGHT CLICKING AND UNCOMPRESS DIRECTORY** :-1:
+**STOP RIGHT CLICKING AND UNCOMPRESS DIRECTORY**
 
 ```shell
 unar archive_name.zip
@@ -274,24 +274,24 @@ unar archive_name.rar
 unar archive_name.ISO
 unar archive_name.tar.gz
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## peek files in a zip file
 
-**STOP USING WinRAR** :-1:
+**STOP USING WinRAR**
 
 ```shell
 zipinfo archive_name.zip
 # or
 unzip -l archive_name.zip
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## peek files in a compress file of any format
 
-**STOP USING WinRAR** :-1:
+**STOP USING WinRAR**
 
 ```shell
 lsar -l archive_name.zip
@@ -300,12 +300,12 @@ lsar -l archive_name.ISO
 lsar -l archive_name.rar
 lsar -l archive_name.tar.gz
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## remove a file
 
-**STOP RIGHT CLICKING AND DELETE A FILE PERMANENTLY** :-1:
+**STOP RIGHT CLICKING AND DELETE A FILE PERMANENTLY**
 
 ```shell
 rm my_useless_file
@@ -313,16 +313,16 @@ rm my_useless_file
 
 **IMPORTANT**: The `rm` command deletes `my_useless_file` permanently, which is equivalent to move `my_useless_file` to Recycle Bin and hit Empty Recycle Bin.
 
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 ## remove a directory
 
-**STOP RIGHT CLICKING AND DELETE A DIRECTORY PERMANENTLY** :-1:
+**STOP RIGHT CLICKING AND DELETE A DIRECTORY PERMANENTLY**
 
 ```shell
 rm -r my_useless_folder
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## remove all files of certain criteria
@@ -333,23 +333,23 @@ find . -name "*.bak" -type f -delete
 
 **IMPORTANT**: run `find . -name "*.bak" -type f` first to see exactly which files you will remove.
 
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 ## list directory contents
 
-**STOP OPENING YOUR FINDER OR FILE EXPLORER** :-1:
+**STOP OPENING YOUR FINDER OR FILE EXPLORER**
 
 ```shell
 ls my_folder        # Simple
 ls -la my_folder    # -l: show in list format. -a: show all files, including hidden. -la combines those options.
 ls -alrth my_folder # -r: reverse output. -t: sort by time (modified). -h: output human-readable sizes.
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## tree view a directory and its subdirectories
 
-**STOP OPENING YOUR FINDER OR FILE EXPLORER** :-1:
+**STOP OPENING YOUR FINDER OR FILE EXPLORER**
 
 ```shell
 tree                                                        # on Linux
@@ -357,24 +357,24 @@ find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'      # on MacOS
 # Note: install homebrew (https://brew.sh) to be able to use (some) Linux utilities such as tree.
 # brew install tree
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## find a stale file
 
-**STOP USING YOUR FILE EXPLORER TO FIND A FILE** :-1:
+**STOP USING YOUR FILE EXPLORER TO FIND A FILE**
 
 Find all files modified more than 5 days ago
 
 ```shell
 find my_folder -mtime +5
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## show a calendar
 
-**STOP LOOKING UP WHAT THIS MONTH LOOKS LIKE BY CALENDAR WIDGETS** :-1:
+**STOP LOOKING UP WHAT THIS MONTH LOOKS LIKE BY CALENDAR WIDGETS**
 
 Display a text calendar
 
@@ -386,12 +386,12 @@ Display selected month and year calendar
 ```shell
 cal 11 2018
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## find a future date
 
-**STOP USING WEBAPPS TO CALCULATE FUTURE DATES** :-1:
+**STOP USING WEBAPPS TO CALCULATE FUTURE DATES**
 
 What is today's date?
 
@@ -405,55 +405,55 @@ What about a week from now?
 date -d "+7 days"                                           # on Linux
 date -j -v+7d                                               # on MacOS
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## use a calculator
 
-**STOP USING CALCULATOR WIDGET** :-1:
+**STOP USING CALCULATOR WIDGET**
 
 ```shell
 bc -l
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## force quit a program
 
-**STOP CTRL + ALT + DELETE and choose the program to kill** :-1:
+**STOP CTRL + ALT + DELETE and choose the program to kill**
 
 ```shell
 killall -9 program_name
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## check server response
 
-**STOP OPENING A BROWSER** :-1:
+**STOP OPENING A BROWSER**
 
 ```shell
 curl -i umair.surge.sh
 # curl's -i (--include) option includes HTTP response headers in its output.
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## view content of a file
 
-**STOP DOUBLE CLICKING A FILE** :-1:
+**STOP DOUBLE CLICKING A FILE**
 
 ```shell
 cat apps/settings.py
 # if the file is too big to fit on one page, you can use a 'pager' (less) which shows you one page at a time.
 less apps/settings.py
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## search for a text in a file
 
-**STOP CMD/CTRL + F IN A FILE** :-1:
+**STOP CMD/CTRL + F IN A FILE**
 
 ```shell
 grep -i "Query" file.txt
@@ -461,44 +461,44 @@ grep -i "Query" file.txt
 
 ![grep](./grep.jpg)
 
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## search in all files in current working directory, quickly (entire disk in less than 15 minutes)
 
-**STOP CMD/CTRL + F IN A DIRECTORY** :-1:
+**STOP CMD/CTRL + F IN A DIRECTORY**
 
 ```shell
 ripgrep -i "Query"
 # brew install ripgrep
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## view an image
 
-**STOP USING PREVIEW** :-1:
+**STOP USING PREVIEW**
 
 ```shell
 imgcat image.png
 # Note: requires iTerm2 terminal.
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## show disk size
 
-**STOP RIGHT CLICKING DISK ICON OR OPENING DISK UTILITY** :-1:
+**STOP RIGHT CLICKING DISK ICON OR OPENING DISK UTILITY**
 
 ```shell
 df -h
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## check cpu usage, processes and RAM
 
-**STOP OPENING YOUR ACTIVITY MONITOR OR TASK MANAGER** :-1:
+**STOP OPENING YOUR ACTIVITY MONITOR OR TASK MANAGER**
 
 ```shell
 top
@@ -508,7 +508,7 @@ if you want some more details:
 htop
 ```
 
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## know whether your computer is under load, and whether it's due to memory or CPU
@@ -517,7 +517,7 @@ htop
 glances
 # brew install glances
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## poweroff or reboot your computer
@@ -530,7 +530,7 @@ sudo shutdown -h now
 # reboot
 sudo shutdown -r now
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## locate USB drives
@@ -538,7 +538,7 @@ sudo shutdown -r now
 ```shell
 df
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## unmount USB drives
@@ -546,7 +546,7 @@ df
 ```shell
 sudo umount /dev/sdb1
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## format USB drives
@@ -559,7 +559,7 @@ sudo mkfs.ntfs /dev/sdb1
 # exFAT
 sudo mkfs.exfat /dev/sdb1
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## check USB format
@@ -567,17 +567,17 @@ sudo mkfs.exfat /dev/sdb1
 ```shell
 sudo fsck /dev/sdb1
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 
 ## run command on all files of a directory
 
-**STOP CLICKING THE FILES ONE BY ONE** :-1:
+**STOP CLICKING THE FILES ONE BY ONE**
 
 ```shell
 for FILE in *; do echo $FILE; done
 ```
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 ## check network connectivity to a remote address and port
 
@@ -588,7 +588,7 @@ nc -vz www.google.com 443
 nc -vz 1.1.1.1 53
 ```
 
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 ## check DNS config of a domain
 
@@ -598,7 +598,7 @@ nc -vz 1.1.1.1 53
 dig www.google.com
 ```
 
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 ## check the ownership and registration of a domain
 
@@ -608,13 +608,13 @@ dig www.google.com
 whois www.google.com
 ```
 
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 ## Quick tips
 
 ![CLI tips](./cli_tips.jpg)
 
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 ## Hotkeys
 
@@ -642,10 +642,10 @@ whois www.google.com
 | <kbd>Esc</kbd>+<kbd>B</kbd> | Same as <kbd>Alt</kbd> + <kbd>B</kbd> |
 | <kbd>Alt</kbd>+<kbd>.</kbd> | Paste the last word of the most recently command |
 | <kbd>Tab</kbd> | Auto-complete files and directory names |
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
 
 ## I can't remember these cryptic commands
 
 You can always google or `man` the commands you are not familiar with. Or, checkout [tldr](https://github.com/tldr-pages/tldr), a collection of simplified and community-driven man pages.
 
-[Go to table of contents 🔼](#quick-links)
+[Go to table of contents ▲](#quick-links)
