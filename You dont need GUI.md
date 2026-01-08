@@ -277,7 +277,9 @@ unar archive_name.tar.gz
 [Back to T.O.C](#quick-links)
 
 
-## peek files in a zip file
+## peek files in a zip file  
+> Tip! Filenames with spaces need quotes
+e.g. "file name".zip
 
 **STOP USING WinRAR**
 
