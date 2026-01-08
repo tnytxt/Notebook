@@ -36,7 +36,7 @@ Computer professionals, who value efficiency and precision, may prefer command-l
 1. [remove a file](#remove-a-file)
 1. [remove a directory](#remove-a-directory)
 1. [remove all files of certain criteria](#remove-all-files-of-certain-criteria)
-1. [diplay a directories contents](#diplay a directories contents)
+1. [diplay a directories contents](#diplay-a-directories-contents)
 1. [tree view a directory and its subdirectories](#tree-view-a-directory-and-its-subdirectories)
 1. [find a stale file](#find-a-stale-file)
 1. [show a calendar](#show-a-calendar)
