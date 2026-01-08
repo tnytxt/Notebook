@@ -1,8 +1,4 @@
-# You Don't Need GUI
-
-[![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/you-dont-need/GUI)
-
-[中文版请看这里](./readme-zh_CN.md)
+# You Don't Need a GUI
 
 <details>
 It's for noobs :)
@@ -13,9 +9,9 @@ Graphical user interfaces are super friendly to computer users. They were introd
 
 ![Xerox Star 8010 workstations](./Xerox_Star_8010_workstations.jpg)
 
-However, they often require more resources, are less powerful and hard to automate via scripting.
+However, they often require more resources, are less powerful and are hard to automate via scripting.
 
-As a computer expert, we want to be more efficient and do our jobs better. We know that command words may not be easily discoverable or mnemonic, so we try to list some common tasks that you might be tempted to do in GUI.
+As a computer expert, we want to be more efficient and do our jobs better. We know that command words may not be easily discoverable or mnemonic, so we've listed some common tasks that you might like to try in GUI.
 
 ## Quick links
 
