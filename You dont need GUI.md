@@ -333,9 +333,9 @@ find . -name "*.bak" -type f -delete
 
 [Back to T.O.C](#quick-links)
 
-## list directory contents
+## diplay a directories contents  
 
-**STOP OPENING YOUR FINDER OR FILE EXPLORER**
+**Instead of using your file manager**
 
 ```shell
 ls my_folder        # Simple
