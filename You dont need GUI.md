@@ -78,7 +78,7 @@ Copy `readme.txt` to the `documents` directory
 ```shell
 cp readme.txt documents/
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## duplicate a file
@@ -93,7 +93,7 @@ More advanced:
 cp readme{,.bak}.txt
 # Note: learn how the {} works with touch foo{1,2,3}.txt and see what happens.
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## copy a directory
@@ -107,7 +107,7 @@ cp -a myMusic myMedia/
 # or
 cp -a myMusic/ myMedia/myMusic/
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## duplicate a directory
@@ -119,7 +119,7 @@ cp -a myMusic/ myMedia/
 # or if `myMedia` folder doesn't exist
 cp -a myMusic myMedia/
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## move a file
@@ -132,7 +132,7 @@ mv readme.txt documents/
 
 **Always** use a trailing slash when moving files, [for this reason](http://unix.stackexchange.com/a/50533).
 
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 ## rename a file
 
@@ -141,7 +141,7 @@ mv readme.txt documents/
 ```shell
 mv readme.txt README.md
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## move a directory
@@ -153,7 +153,7 @@ mv myMedia myMusic/
 # or
 mv myMedia/ myMusic/myMedia
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## rename a directory
@@ -163,7 +163,7 @@ mv myMedia/ myMusic/myMedia
 ```shell
 mv myMedia/ myMusic/
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## merge directories
@@ -173,7 +173,7 @@ mv myMedia/ myMusic/
 ```shell
 rsync -a /images/ /images2/	# note: may over-write files with the same name, so be careful!
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## create a new file
@@ -185,7 +185,7 @@ touch 'new file'    # updates the file's access and modification timestamp if it
 # or
 > 'new file'        # note: erases the content if it already exists
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## create a new directory
@@ -197,7 +197,7 @@ mkdir 'untitled folder'
 # or
 mkdir -p 'path/may/not/exist/untitled folder'
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## show file/directory size
@@ -207,7 +207,7 @@ mkdir -p 'path/may/not/exist/untitled folder'
 ```shell
 du -sh node_modules/
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## show file/directory info
@@ -218,7 +218,7 @@ du -sh node_modules/
 stat -x readme.md   # on macOS
 stat readme.md      # on Linux
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## open a file with the default program
@@ -230,7 +230,7 @@ xdg-open file   # on Linux
 open file       # on MacOS
 start file      # on Windows
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## open a file in any application
@@ -240,7 +240,7 @@ start file      # on Windows
 ```shell
 open -a appName file
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## zip a directory
@@ -250,7 +250,7 @@ open -a appName file
 ```shell
 zip -r archive_name.zip folder_to_compress
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## unzip a directory
@@ -260,7 +260,7 @@ zip -r archive_name.zip folder_to_compress
 ```shell
 unzip archive_name.zip
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## decompress files of any format
@@ -274,7 +274,7 @@ unar archive_name.rar
 unar archive_name.ISO
 unar archive_name.tar.gz
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## peek files in a zip file
@@ -286,7 +286,7 @@ zipinfo archive_name.zip
 # or
 unzip -l archive_name.zip
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## peek files in a compress file of any format
@@ -300,7 +300,7 @@ lsar -l archive_name.ISO
 lsar -l archive_name.rar
 lsar -l archive_name.tar.gz
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## remove a file
@@ -313,7 +313,7 @@ rm my_useless_file
 
 **IMPORTANT**: The `rm` command deletes `my_useless_file` permanently, which is equivalent to move `my_useless_file` to Recycle Bin and hit Empty Recycle Bin.
 
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 ## remove a directory
 
@@ -322,7 +322,7 @@ rm my_useless_file
 ```shell
 rm -r my_useless_folder
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## remove all files of certain criteria
@@ -333,7 +333,7 @@ find . -name "*.bak" -type f -delete
 
 **IMPORTANT**: run `find . -name "*.bak" -type f` first to see exactly which files you will remove.
 
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 ## list directory contents
 
@@ -344,7 +344,7 @@ ls my_folder        # Simple
 ls -la my_folder    # -l: show in list format. -a: show all files, including hidden. -la combines those options.
 ls -alrth my_folder # -r: reverse output. -t: sort by time (modified). -h: output human-readable sizes.
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## tree view a directory and its subdirectories
@@ -357,7 +357,7 @@ find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'      # on MacOS
 # Note: install homebrew (https://brew.sh) to be able to use (some) Linux utilities such as tree.
 # brew install tree
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## find a stale file
@@ -369,7 +369,7 @@ Find all files modified more than 5 days ago
 ```shell
 find my_folder -mtime +5
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## show a calendar
@@ -386,7 +386,7 @@ Display selected month and year calendar
 ```shell
 cal 11 2018
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## find a future date
@@ -405,7 +405,7 @@ What about a week from now?
 date -d "+7 days"                                           # on Linux
 date -j -v+7d                                               # on MacOS
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## use a calculator
@@ -415,7 +415,7 @@ date -j -v+7d                                               # on MacOS
 ```shell
 bc -l
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## force quit a program
@@ -425,7 +425,7 @@ bc -l
 ```shell
 killall -9 program_name
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## check server response
@@ -436,7 +436,7 @@ killall -9 program_name
 curl -i umair.surge.sh
 # curl's -i (--include) option includes HTTP response headers in its output.
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## view content of a file
@@ -448,7 +448,7 @@ cat apps/settings.py
 # if the file is too big to fit on one page, you can use a 'pager' (less) which shows you one page at a time.
 less apps/settings.py
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## search for a text in a file
@@ -461,7 +461,7 @@ grep -i "Query" file.txt
 
 ![grep](./grep.jpg)
 
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## search in all files in current working directory, quickly (entire disk in less than 15 minutes)
@@ -472,7 +472,7 @@ grep -i "Query" file.txt
 ripgrep -i "Query"
 # brew install ripgrep
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## view an image
@@ -483,7 +483,7 @@ ripgrep -i "Query"
 imgcat image.png
 # Note: requires iTerm2 terminal.
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## show disk size
@@ -493,7 +493,7 @@ imgcat image.png
 ```shell
 df -h
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## check cpu usage, processes and RAM
@@ -508,7 +508,7 @@ if you want some more details:
 htop
 ```
 
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## know whether your computer is under load, and whether it's due to memory or CPU
@@ -517,7 +517,7 @@ htop
 glances
 # brew install glances
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## poweroff or reboot your computer
@@ -530,7 +530,7 @@ sudo shutdown -h now
 # reboot
 sudo shutdown -r now
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## locate USB drives
@@ -538,7 +538,7 @@ sudo shutdown -r now
 ```shell
 df
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## unmount USB drives
@@ -546,7 +546,7 @@ df
 ```shell
 sudo umount /dev/sdb1
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## format USB drives
@@ -559,7 +559,7 @@ sudo mkfs.ntfs /dev/sdb1
 # exFAT
 sudo mkfs.exfat /dev/sdb1
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## check USB format
@@ -567,7 +567,7 @@ sudo mkfs.exfat /dev/sdb1
 ```shell
 sudo fsck /dev/sdb1
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 
 ## run command on all files of a directory
@@ -577,7 +577,7 @@ sudo fsck /dev/sdb1
 ```shell
 for FILE in *; do echo $FILE; done
 ```
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 ## check network connectivity to a remote address and port
 
@@ -588,7 +588,7 @@ nc -vz www.google.com 443
 nc -vz 1.1.1.1 53
 ```
 
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 ## check DNS config of a domain
 
@@ -598,7 +598,7 @@ nc -vz 1.1.1.1 53
 dig www.google.com
 ```
 
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 ## check the ownership and registration of a domain
 
@@ -608,13 +608,13 @@ dig www.google.com
 whois www.google.com
 ```
 
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 ## Quick tips
 
 ![CLI tips](./cli_tips.jpg)
 
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 ## Hotkeys
 
@@ -642,10 +642,10 @@ whois www.google.com
 | <kbd>Esc</kbd>+<kbd>B</kbd> | Same as <kbd>Alt</kbd> + <kbd>B</kbd> |
 | <kbd>Alt</kbd>+<kbd>.</kbd> | Paste the last word of the most recently command |
 | <kbd>Tab</kbd> | Auto-complete files and directory names |
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
 
 ## I can't remember these cryptic commands
 
 You can always google or `man` the commands you are not familiar with. Or, checkout [tldr](https://github.com/tldr-pages/tldr), a collection of simplified and community-driven man pages.
 
-[Go back to T.O.C ▲](#quick-links)
+[Back to T.O.C ☝](#quick-links)
