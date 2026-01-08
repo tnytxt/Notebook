@@ -5,13 +5,13 @@ It's for noobs :)
 </details>
 <br />
 
-Graphical user interfaces are super friendly to computer users. They were introduced in reaction to the perceived steep learning curve of command-line interfaces (CLIs).
+Graphical user interfaces (GUIs) are designed to be highly user-friendly. They emerged as a response to the steep learning curve associated with command-line interfaces (CLIs).
 
-[Xerox Star 8010 workstations](https://duckduckgo.com/?t=ftsa&q=Xerox+Star+8010+workstations&ia=web)
+The [Xerox Star 8010 workstation](https://duckduckgo.com/?t=ftsa&q=Xerox+Star+8010+workstations&ia=web) was among the first systems to popularize the concept of a GUI.  
 
-However, they often require more resources, are less powerful and are hard to automate via scripting.
+However, GUIs often demand more system resources, provide less control, and are more difficult to automate through scripting.  
 
-As a computer expert, we want to be more efficient and do our jobs better. We know that command words may not be easily discoverable or mnemonic, so we've listed some common tasks that you might like to try in GUI.
+Computer professionals, who value efficiency and precision, may prefer command-line tools for complex tasks. Yet, since command commands are not always intuitive or easy to remember, we’ve compiled a list of common actions you can perform using a GUI to help you get started.
 
 ## Quick links
 
