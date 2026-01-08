@@ -7,7 +7,7 @@ It's for noobs :)
 
 Graphical user interfaces are super friendly to computer users. They were introduced in reaction to the perceived steep learning curve of command-line interfaces (CLIs).
 
-![Xerox Star 8010 workstations](./Xerox_Star_8010_workstations.jpg)
+![Xerox Star 8010 workstations](https://duckduckgo.com/?t=ftsa&q=Xerox+Star+8010+workstations&ia=web)
 
 However, they often require more resources, are less powerful and are hard to automate via scripting.
 
