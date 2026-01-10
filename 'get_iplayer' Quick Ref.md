@@ -7,7 +7,7 @@
 - Download multiple programmes  
   `get_iplayer --pid=xxxxxxxx, xxxxxxxx, xxxxxxxx `
 
-- Download whole series
+- Download whole series  
   `get_iplayer --pid-recursive=xxxxxxxx`
 
 Docs: https://github.com/get-iplayer/get_iplayer/wiki
