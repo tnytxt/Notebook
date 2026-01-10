@@ -1,6 +1,7 @@
 ### How to set up OpenVPN on Debian  
 
-The following are required for OpenVPN to work on Debian 12:  
+The following are required for OpenVPN to work on Debian 12: 
+There are some diffrences in Debia 13
 
 ****
 
