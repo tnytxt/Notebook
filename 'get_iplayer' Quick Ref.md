@@ -1,13 +1,13 @@
-**Here’s a clean, concise & Google Keep-friendly version**  
-(Use bullet points, short lines, emoji markers & clear sections – perfect for quick copy-paste into Keep)
-
-# get_iplayer – Quick Reference (2025/26)
+# get_iplayer Quick Reference (2025/26)
 
 ## Quick Start
-- Single programme  
+- Download single programme  
   `get_iplayer --pid=xxxxxxxx`
 
-- Whole series/brand  
+- Download multiple programmes  
+  `get_iplayer --pid=xxxxxxxx, xxxxxxxx, xxxxxxxx `
+
+- Download whole series
   `get_iplayer --pid-recursive=xxxxxxxx`
 
 Docs: https://github.com/get-iplayer/get_iplayer/wiki
