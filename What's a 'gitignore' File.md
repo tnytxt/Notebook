@@ -1,4 +1,4 @@
-
+# What's a 'gitignore' File
 
 In This Article
 
@@ -9,7 +9,7 @@ In This Article
 - [Extra: File Still Not Opening?](https://www.lifewire.com/#toc-still-cant-open-the-file)
 - [Frequently Asked Questions](https://www.lifewire.com/#toc-frequently-asked-questions-677973f0-8581-4662-8496-91954d51560a)
 
-### What to Know
+## What to Know
 
 - A .gitignore file specifies which files to ignore in the Git revision control system.
 - Any text editor can view the contents of the file, but to actually *use* it, copy it to a folder in your repository.
