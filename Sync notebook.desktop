@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Update Git Repository
+Comment=Pull, commit if needed, and push
+Exec=/home/lee/Sync notebook.sh
+Icon=utilities-terminal
+Terminal=false
+
