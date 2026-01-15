@@ -1,0 +1,10 @@
+Create habit tracker
+health: exercise, stretching,
+tasks: chores learning: guitar, math,
+
+journalctl --disk-usage
+journalctl --rotate
+journalctl --vacuum-time=1s
+journalctl --disk-usage
+ 
+ 

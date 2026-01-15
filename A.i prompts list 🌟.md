@@ -14,4 +14,4 @@ This gives the clipper template, a concrete input, requests step-by-step transfo
 
 ---
 
-“Update and polish this Debian 12 installation tutorial to Debian 13 for Namecheap VPN. Improve clarity and conciseness of all text while preserving technical accuracy. Reduce all embedded image dimensions by 50%, compress them for web performance, and invert predominantly white images so they display as dark-on-light instead of light-on-dark. Keep headings, step order, and code blocks intact, and ensure the final tutorial reads as a clean, production-ready guide.”
+“Update and refine this Debian 12 installation tutorial to Debian 13 for Namecheap VPN. Improve clarity and conciseness of all text while preserving technical accuracy. Reduce all embedded image dimensions by 50%, compress them for web performance, and invert predominantly white images so they display as dark-on-light instead of light-on-dark. Keep headings, step order, and code blocks intact, and ensure the final tutorial reads as a clean, production-ready guide.”
