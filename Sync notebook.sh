@@ -1,14 +1,1 @@
-#!/bin/bash
-
-set -e
-
-git pull
-git add .
-
-if ! git diff --cached --quiet; then
-    git commit -m "Update notebook"
-    git push
-fi
-
-exit 0
-
+/media/Storage/git clones/notebook/Linux/Sync notebook.sh
