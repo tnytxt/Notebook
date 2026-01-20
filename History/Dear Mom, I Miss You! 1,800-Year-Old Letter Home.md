@@ -5,7 +5,7 @@
 ***
  **“His emotions are really no different than those of soldiers today who are longing to go home.”**  
 
-[![(https://github.com/tnytxt/notebook/blob/main/Assets/roman-solider-writing%20(50%20pct).jpeg)](https://github.com/tnytxt/notebook/blob/main/Assets/roman-solider-win-sucks.jpeg)
+[!](https://github.com/tnytxt/notebook/blob/main/Assets/roman-solider-writing%20(50%20pct).jpeg)](https://github.com/tnytxt/notebook/blob/main/Assets/roman-solider-win-sucks.jpeg)
 
 
 **AN AMERICAN GRADUATE** student Rice University has translated fragments of a letter written by a 3^rd^ Century Roman soldier, according to Rice University in Houston, Texas.
