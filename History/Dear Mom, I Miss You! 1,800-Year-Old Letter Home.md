@@ -1,4 +1,4 @@
-# "Dear Mom, I Miss You!" – 1,800-Year-Old Letter Home From Roman Soldier 
+# "Dear Mom, I Miss You!": A Roman Soldier's 1,800-Year-Old Letter Home
 
 [militaryhistorynow](https://militaryhistorynow.com/)
 
