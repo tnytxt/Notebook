@@ -16,6 +16,8 @@ Grant Adamson, a student in the school’s religious studies program, believes t
 
 [![All that remains of Egyptian-born Aurelius Polion is this letter home, written in the early 3rd Century. Photo courtesy of the University of California, Berkeley.](https://i0.wp.com/militaryhistorynow.com/wp-content/uploads/2014/03/soldier_letter_main.jpg?resize=400%2C403&ssl=1)](https://i0.wp.com/militaryhistorynow.com/wp-content/uploads/2014/03/soldier_letter_main.jpg?ssl=1)
 
+Dating back about 1,800 years, this letter was written, mainly in Greek, by Aurelius Polion, an Egyptian man who served with the legio II Adiutrix legion around modern-day Hungary. In the letter, discovered more than a century ago in the Egyptian town of Tebunis and only recently translated, Polion pleads with his family to respond. (Image credit: Image courtesy Bancroft Library at the University of California Berkeley) 
+
 All that remains of Egyptian-born Aurelius Polion is this letter home, written in the early 3rd Century. Photo courtesy of the University of California, Berkeley.
 
 According to Adamson, Polion tells his family that he thinks of them often, but questions why no one has replied to the half dozen other messages he’d already sent.
