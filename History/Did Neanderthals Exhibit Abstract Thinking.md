@@ -1,14 +1,14 @@
+
+**Author:** [Madz Dizon](https://www.sciencetimes.com/reporters/madz-dizon)  
+**Published:** 2024-12-10  
+**Description:**
+"New fossil findings in Spain suggest Neanderthals exhibited abstract thinking and symbolic behaviors long before interacting with modern humans."  
+
+[source](https://www.sciencetimes.com/articles/60113/20241210/did-neanderthals-exhibit-abstract-thinking-new-fossil-study-thinks-so.htm)
+
 ---
-title: "Did Neanderthals Exhibit Abstract Thinking? New Fossil Study Thinks So"
-source: "https://www.sciencetimes.com/articles/60113/20241210/did-neanderthals-exhibit-abstract-thinking-new-fossil-study-thinks-so.htm"
-author:
-  - "[[Madz Dizon]]"
-published: 2024-12-10
-created: 2025-02-12
-description: "New fossil findings in Spain suggest Neanderthals exhibited abstract thinking and symbolic behaviors long before interacting with modern humans."
-tags:
-  - "clippings"
----
+
+
 A groundbreaking discovery in a Spanish cave suggests that Neanderthals may have been capable of abstract thought long before their interactions with modern humans.
 
 Researchers have found 15 small marine fossils in the Prado Vargas Cave in Burgos, Spain, dating back 39,800 to 54,600 years. These fossils, which appear to hold no practical value, were likely collected deliberately by Neanderthals, providing intriguing evidence of their cognitive abilities.
