@@ -2,7 +2,6 @@
 
 [militaryhistorynow](https://militaryhistorynow.com/)
 
-***  
 
  **“His emotions are really no different than those of soldiers today who are longing to go home.”**  
 
