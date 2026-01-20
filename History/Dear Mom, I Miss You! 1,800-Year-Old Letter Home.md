@@ -24,7 +24,7 @@ The soldier promises that if his family will respond, he’d ask his commander f
 
 “The moment you have me in mind, I shall obtain leave from the consular and I shall come to you so that you may know that I am your brother,” wrote Polion.
 
-Adamson points out the letter is indeed a curiosity – most 3^rd^ Century Roman soldiers likely couldn’t read or write.
+Adamson points out the letter is indeed a curiosity – most 3rd Century Roman soldiers likely couldn’t read or write.
 
 “Polion was literate, and literacy was rarer then than it is now,” said Adamson. “But his handwriting, spelling and Greek grammar are erratic. He likely would have been multilingual, communicating in Egyptian or Greek at home in Egypt before he enlisted in the army and then communicating in Latin with the army in Pannonia.”
 
