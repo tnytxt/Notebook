@@ -6,7 +6,7 @@ git pull
 git add .
 
 if ! git diff --cached --quiet; then
-    git commit -m "Update notebook"
+    git commit -m "Update Notebook"
     git push
 fi
 
