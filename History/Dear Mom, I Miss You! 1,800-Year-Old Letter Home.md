@@ -4,13 +4,12 @@
 
 ***
 
-![](https://i0.wp.com/militaryhistorynow.com/wp-content/uploads/2017/12/Legion.jpg?resize=650%2C503&ssl=1)
+![](https://github.com/tnytxt/notebook/blob/main/Assets/roman-solider-writing%20(50%20pct).jpeg)
 
-A student from Rice University has deciphered a letter home from a soldier of the Roman Empire.
 
 ### _“His emotions are really no different than those of soldiers today who are longing to go home.”_
 
-**AN AMERICAN GRADUATE** student has translated fragments of a letter written by a 3^rd^ Century Roman soldier, according to Rice University in Houston, Texas.
+**AN AMERICAN GRADUATE** student Rice University has translated fragments of a letter written by a 3^rd^ Century Roman soldier, according to Rice University in Houston, Texas.
 
 Grant Adamson, a student in the school’s religious studies program, believes that an ancient infantryman scrawled the message to his family on a sheet of papyrus sometime around the year 212. The author signed the letter “Aurelius Polion” and likely penned the 1,800-year-old note while stationed in the Roman province of [Pannonia Inferior](http://en.wikipedia.org/wiki/Pannonia_\(Roman_province\)) in modern-day Hungary.
 
