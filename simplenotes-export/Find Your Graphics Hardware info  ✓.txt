@@ -1,0 +1,10 @@
+Find Your Graphics Hardware info  ✓
+
+`inxi -G
+lspci | egrep -i "vga|3d|display"`
+
+<a href="https://ibb.co/xK24syMC"><img src="https://i.ibb.co/PsrSYR5m/Graphics-hardware.png" alt="Graphics-hardware" border="0"></a>
+
+
+Tags:
+  Cmds, ComputerHardware, Grep, HardwareInfo, HowTos, Linux, SystemInfo

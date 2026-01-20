@@ -1,0 +1,91 @@
+Verbs Adverbs and Adjectives ✓
+
+Verbs and adverbs are two different parts of speech that serve distinct roles in a sentence. Here's a breakdown of each:
+
+**Verbs**
+- **Definition:** Verbs are words that express action, occurrence, or a state of being.
+- **Examples:**
+  - **Action:** run, write, jump
+  - **Occurrence:** happen, become, change
+  - **State of Being:** is, seem, exist
+- **Usage in a Sentence:**
+  - "She *runs* every morning." (action)
+  - "They *became* friends quickly." (occurrence)
+  - "He *is* excited about the trip." (state of being)
+
+**Adverbs**
+- **Definition:** Adverbs modify verbs, adjectives, other adverbs, or entire sentences. They often provide additional context such as manner, time, frequency, degree, or place.
+- **Examples:**
+  - **Manner:** quickly, slowly, carefully
+  - **Time:** now, yesterday, soon
+  - **Frequency:** often, rarely, always
+  - **Degree:** very, quite, almost
+  - **Place:** here, there, everywhere
+- **Usage in a Sentence:**
+  - "She runs *quickly*." (modifies the verb "runs" to describe how she runs)
+  - "He is *extremely* happy." (modifies the adjective "happy" to intensify the description)
+  - "They arrived *late*." (modifies the verb "arrived" to indicate the time of arrival)
+
+**Key Differences**
+- **Function:**  
+  - **Verbs:** Describe what the subject is doing or experiencing.
+  - **Adverbs:** Describe how, when, where, or to what extent something happens.
+- **Modification:**  
+  - **Verbs:** Can be the main word that conveys an action or state.  
+  - **Adverbs:** Typically modify verbs, adjectives, or other adverbs rather than functioning as the main action in a sentence.
+
+**Examples Demonstrating Both**
+1. "The dog *barked* loudly."  
+   - Verb: "barked" (action of making a sound)  
+   - Adverb: "loudly" (describes the manner in which the dog barked)
+
+2. "She *carefully* placed the vase on the table."  
+   - Verb: "placed" (action)  
+   - Adverb: "carefully" (describes the manner observed)
+
+In summary, verbs tell what is happening or be, while adverbs provide more details about how, when, or to what degree that action or state occurs.
+
+**Adjectives** 
+
+Adjectives are words that describe, modify, or give more information about nouns (or pronouns) in a sentence. They help specify qualities or characteristics, such as size, color, shape, and more. Here’s a comprehensive overview:
+
+**Definition**
+- **Adjectives:** Words that modify nouns or pronouns by providing descriptors or qualifiers. They answer questions like "What kind?", "Which one?", and "How many?"
+
+**Functions of Adjectives**
+- **Descriptive:** Provide specific details about a noun.
+  - Example: "The *red* apple is on the table."
+- **Quantitative:** Indicate quantity.
+  - Example: "She has *three* dogs."
+- **Demonstrative:** Point to specific entities.
+  - Example: "*This* book is interesting."
+- **Possessive:** Denote ownership.
+  - Example: "*My* car is fast."
+- **Interrogative:** Used in questions.
+  - Example: "*Which* movie do you want to watch?"
+- **Comparative and Superlative:** Compare qualities of nouns.
+  - Example: "He is *taller* than his brother." (Comparative) / "She is the *tallest* in the class." (Superlative)
+
+**Placement in a Sentence**
+- **Before the Noun:**  
+  - "The *beautiful* garden blossomed in the spring."
+- **After Linking Verbs:**  
+  - "The cat is *black*." (Here, the adjective describes the subject via the linking verb "is.")
+
+**Examples in Sentences**
+1. "The *old, dusty* book sat on the shelf."  
+   - Adjectives: "old" and "dusty" modify the noun "book."
+2. "They adopted a *small* puppy."  
+   - Adjective: "small" describes the noun "puppy."
+3. "I read an *interesting* article."  
+   - Adjective: "interesting" describes the noun "article."
+
+**Differences from Other Parts of Speech**
+- **Verbs:** Express actions, occurrences, or states of being.
+- **Adverbs:** Modify verbs, adjectives, or other adverbs.
+- **Adjectives:** Specifically modify nouns and pronouns.
+
+In summary, adjectives enrich our language by adding detail and nuance to our descriptions of people, places, things, and ideas.
+
+Tags:
+  Adjectives, Adverbs, EnglishGrammar, EnglishLanguage, Learning, Verbs

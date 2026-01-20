@@ -1,0 +1,22 @@
+Add HTML Line-breaks in Markdown Table ✓
+
+Add line breaks using HTML tags in the simplenote web app.
+
+
+```bash
+| Syntax      | Description |
+| :----------- | :----------- |
+| Header      | Title |
+| Paragraph   | First paragraph. <br><br> Second paragraph. |
+
+```
+
+Example:
+
+| Syntax    | Description |
+| :----------- | :----------- |
+| Header         | Title |
+| Paragraph   | First paragraph.<br> Second paragraph.<br> |
+
+Tags:
+  CodeTags, HTML, LineBreaks, Markdown, MarkdownTables

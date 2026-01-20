@@ -1,0 +1,97 @@
+✏️ **Arithmetic Operators**
+[do i fooking nned this knowledge?]
+
+- Used for basic mathematical operations.
+    - Addition: +
+    - Subtraction: -
+    - Multiplication: *
+    - Division: /
+    - Modulus: %
+[^1] [^3] [^5]
+
+**Relational Operators**
+
+- Compare values and return true or false.
+    - Equal to: -eq
+    - Not equal to: -ne
+    - Greater than: -gt
+    - Less than: -lt
+    - Greater than or equal to: -ge
+    - Less than or equal to: -le
+[^1] [^2] [^3] [^5]
+
+**Boolean (Logical) Operators**
+
+- Used for logical operations and conditional statements.
+    - AND: \&\&
+    - OR: ||
+    - NOT: !
+[^1] [^2] [^3] [^5]
+
+**Bitwise Operators**
+
+- Operate at the bit level within integer values.
+    - AND: \&
+    - OR: |
+    - XOR: ^
+    - NOT: ~
+    - Left Shift: <<
+    - Right Shift: >>
+[^1] [^2] [^3] [^5]
+
+**String Operators**
+
+- Perform operations on string values.
+    - Equal to: =
+    - Not equal to: !=
+    - String length is zero: -z
+    - String length is non-zero: -n
+[^1]
+
+**File Test Operators**
+
+- Test properties of files and directories.
+    - Exists: -e
+    - Is a directory: -d
+    - Is a regular file: -f
+    - Is readable: -r
+    - Is writable: -w
+    - Is executable: -x
+    - Has size greater than zero: -s
+[^1] [^2] [^3]
+
+**Assignment Operators**
+
+- Assign values to variables.
+    - Assignment: =
+[^5]
+
+**Other Operators**
+
+- Ternary Operator: Used for concise conditional expressions (in some shells).
+- Redirection and Pipe Operators: For input/output control (e.g., >, <, |).
+[^3] [^5]
+
+These operators are fundamental in Linux scripting and command-line usage, enabling powerful and flexible automation and system management [^1][^2][^3] [^5]
+
+<div style="text-align: center"></div>
+
+[^1]: https://data-flair.training/blogs/basic-operators-in-linux/
+
+[^2]: https://t.ly/tBu8h
+
+[^3]: https://www.scaler.com/topics/linux-operators/
+
+[^4]: https://www.tutorialspoint.com/unix/unix-basic-operators.htm
+
+[^5]: https://sysxplore.com/bash-operators/
+
+[^6]: https://www.digitalocean.com/community/tutorials/linux-commands
+
+[^7]: https://tldp.org/LDP/abs/html/ops.html
+
+
+Tags:
+  #ArithmeticOperators, #AssignmentOperators, #BooleanOperators, #Coding
+  #FileTestOperators, #Logic, #Mathematics, #Operators, #Programming
+  #RelationalOperators, #Scripting, #ShellScripting, #StringOperators

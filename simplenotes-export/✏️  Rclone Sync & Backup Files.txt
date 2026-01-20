@@ -1,0 +1,184 @@
+✏️  Rclone Sync & Backup Files
+(edit tags, maybe sumat else)
+
+To sync and back up files using Rclone, you can use its powerful cmd-line interface to perform various operations. Since you already have Rclone set up and mounted to a cloud storage drive, here’s a step-by-step guide on how to sync and back up your files:
+
+**Step 1: Verify Your Rclone Config**
+
+Before proceeding, ensure that your Rclone configuration is set up correctly. You can check your remote configurations by running:
+
+`rclone listremotes`
+
+This command will display a list of configured remotes (e.g., your cloud storage).
+
+**Step 2: Syncing Files**
+
+To sync files from your local directory to your cloud storage, you can use the `rclone sync` command. The basic syntax is:
+
+`rclone sync /path/to/local/directory remote:remote_directory`
+
+- Replace `/path/to/local/directory` with the path to the local folder you want to back up.
+- Replace `remote:remote_directory` with your configured remote name and the target directory in your cloud storage.
+
+**Example:**
+
+`rclone sync /home/user/myfolder remote:mybackupfolder`
+
+This command will sync the contents of `myfolder` to `mybackupfolder` in your cloud storage. Note that `sync` will make the destination identical to the source, meaning it will delete files in the destination that are not present in the source.
+
+**Step 3: Backing Up Files**
+
+If you want to back up files without deleting anything in the destination, you can use the `rclone copy` command instead. The syntax is similar:
+
+```bash
+rclone copy /path/to/local/directory remote:remote_directory
+```
+
+**Example:**
+
+```bash
+rclone copy /home/user/myfolder remote:mybackupfolder
+```
+
+This command will copy the contents of `myfolder` to `mybackupfolder` without deleting any existing files in the destination.
+
+**Step 4: Additional Options**
+
+Rclone provides various options to customize your sync or copy operations. Here are a few useful flags:
+
+- `--dry-run`   Simulates the operation without making any changes. This is useful for testing what will happen.
+  
+  ```bash
+  rclone sync /home/user/myfolder remote:mybackupfolder --dry-run
+  ```
+
+- `--progress`  Displays progress during the transfer.
+
+  ```bash
+  rclone sync /home/user/myfolder remote:mybackupfolder --progress
+  ```
+
+- `--exclude`  Excludes specific files or directories from the sync.
+
+  ```bash
+  rclone sync /home/user/myfolder remote:mybackupfolder --exclude "*.tmp"
+  ```
+
+- `--delete-excluded`  Deletes files in the destination that are excluded from the source.
+
+**Step 5: Scheduling Backups**
+
+To automate your backup process, you can create a cron job (on Linux) to run your Rclone commands at specified intervals. For example, to run a backup every day at 2 AM, you can add the following line to your crontab:
+
+```bash
+0 2 * * * rclone sync /home/user/myfolder remote:mybackupfolder
+```
+
+**Conclusion**
+
+Using Rclone for syncing and backing up files is straightforward and powerful. By utilizing the `sync` and `copy` commands, along with various options, you can effectively manage your backups to cloud storage. Always remember to test your commands with the `--dry-run` option before executing them to avoid unintended data loss.
+
+**Use YAD (Yet Another Dialog) to create a GUI progress dialog** 
+
+YAD is a tool that allows you to create GTK+ dialogs from the command line, and it can be particularly useful for displaying progress for long-running tasks like file synchronization or backup operations.
+
+### Example of Using YAD with Rclone
+
+Here’s a basic example of how to use YAD to show progress while running an Rclone sync or copy command.
+
+1. **Install YAD**: If you haven't installed YAD yet, you can do so using your package manager.
+
+2. **Bash Script for Rclone Sync with YAD**: use this bash script that runs the Rclone command and uses YAD to display the progress. Here’s a simple example script:
+
+   ```bash
+   #!/bin/bash
+
+   # Define your source and destination
+   SOURCE="/path/to/local/directory"
+   DESTINATION="remote:remote_directory"
+
+   # Run Rclone with YAD progress dialog
+   rclone sync "$SOURCE" "$DESTINATION" --progress | yad --progress --title="Rclone Sync" --text="Syncing files..." --percentage=0 --auto-close --no-cancel --width=300 --height=100 --timeout=10 --timeout-indicator=top
+
+   # Check the exit status of Rclone
+   if [ $? -eq 0 ]; then
+       yad --title="Success" --text="Sync completed successfully!" --button="OK"
+   else
+       yad --title="Error" --text="An error occurred during sync." --button="OK"
+   fi
+   ```
+
+3. **Make the Script Executable**: Save the script to a file, for example, `rclone_sync.sh`, and make it executable:
+
+   ```bash
+   chmod +x rclone_sync.sh
+   ```
+
+4. **Run the Script**: Execute the script to start the sync process with a YAD progress dialog:
+
+   ```bash
+   ./rclone_sync.sh
+   ```
+
+### Important Notes
+
+- **Progress Output**: The `--progress` flag in the Rclone command outputs progress information to the terminal. YAD can read this output to update the progress bar. However, you may need to parse the output to extract the percentage and update the YAD dialog accordingly.
+
+- **Advanced Usage**: For more advanced usage, you can customize the YAD dialog further, such as adding buttons, changing colors, or modifying the layout.
+
+- **Error Handling**: The script includes basic error handling to notify you if the sync operation was successful or if an error occurred.
+
+### Conclusion
+
+Using YAD with Rclone can enhance the user experience by providing a graphical interface to monitor the progress of file synchronization or backup operations. You can customize the script to fit your specific needs and improve the functionality as required.
+
+To make the Rclone sync script compatible with the Fish shell, you'll need to adjust the syntax since Fish has a different syntax compared to Bash. Below is a modified version of the script that works with Fish shell:
+
+### Fish Shell Script for Rclone Sync with YAD
+
+```fish
+#!/usr/bin/env fish
+
+# Define your source and destination
+set SOURCE "/path/to/local/directory"
+set DESTINATION "remote:remote_directory"
+
+# Run Rclone with YAD progress dialog
+rclone sync $SOURCE $DESTINATION --progress | yad --progress --title="Rclone Sync" --text="Syncing files..." --percentage=0 --auto-close --no-cancel --width=300 --height=100 --timeout=10 --timeout-indicator=top
+
+# Check the exit status of Rclone
+if test $status -eq 0
+    yad --title="Success" --text="Sync completed successfully!" --button="OK"
+else
+    yad --title="Error" --text="An error occurred during sync." --button="OK"
+end
+```
+
+### Steps to Use the Script
+
+1. **Create the Script**: Save the above code to a file, for example, `rclone_sync.fish`.
+
+2. **Make the Script Executable**: Run the following command to make the script executable:
+
+   ```fish
+   chmod +x rclone_sync.fish
+   ```
+
+3. **Run the Script**: Execute the script in your Fish shell:
+
+   ```fish
+   ./rclone_sync.fish
+   ```
+
+### Important Notes
+
+- **YAD Progress Output**: The `--progress` flag in the Rclone command outputs progress information to the terminal. The YAD dialog will show a progress bar, but you may need to implement additional parsing of the Rclone output to update the progress bar accurately. The current script does not parse the output for percentage updates; it simply shows a dialog.
+
+- **Error Handling**: The script includes basic error handling to notify you if the sync operation was successful or if an error occurred.
+
+- **Adjust Paths**: Make sure to replace `/path/to/local/directory` and `remote:remote_directory` with your actual source and destination paths.
+
+This Fish shell script should work similarly to the Bash version, providing a graphical progress dialog while syncing files with Rclone.
+
+Tags:
+  Bash, Rclone, SyncBackup, YAD

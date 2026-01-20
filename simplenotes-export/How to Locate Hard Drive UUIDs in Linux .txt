@@ -1,0 +1,60 @@
+How to Locate Hard Drive UUIDs in Linux ✓
+
+To find the UUID (Universally Unique Identifier) of hard drives in Linux, you can use several methods. Here are some common approaches:
+
+### 1. Using the `blkid` Command
+The `blkid` command is a simple way to list all block devices and their UUIDs.
+
+```bash
+sudo blkid
+```
+
+This command will display output similar to the following:
+
+```
+/dev/sda1: UUID="1234-5678" TYPE="ext4" 
+/dev/sdb1: UUID="8765-4321" TYPE="xfs"
+```
+
+### 2. Using the `lsblk` Command
+The `lsblk` command can also show UUIDs along with other information about block devices.
+
+```bash
+lsblk -o NAME,UUID
+```
+
+This will provide a list of devices with their names and UUIDs.
+
+### 3. Checking `/dev/disk/by-uuid/`
+You can also look in the `/dev/disk/by-uuid/` directory, which contains symbolic links to devices based on their UUIDs.
+
+```bash
+ls -l /dev/disk/by-uuid/
+```
+
+This will show you the UUIDs and the corresponding device names.
+
+### 4. Using the `fdisk` Command
+While `fdisk` is primarily used for partitioning, it can also show UUIDs.
+
+```bash
+sudo fdisk -l
+```
+
+Look for the UUIDs in the output, although this method may not always display them.
+
+### 5. Using `parted`
+The `parted` command can also be used to list UUIDs.
+
+```bash
+sudo parted -l
+```
+
+This will show detailed information about all partitions, including their UUIDs.
+
+### Summary
+Any of these methods will help you find the UUIDs of your hard drives in Linux. The `blkid` command is often the most straightforward and commonly used method.
+
+Tags:
+  Cmds, DiskManagement, fdisk, HardDrives, Linux, lsblk, parted, SystemCmds
+  UUID

@@ -1,0 +1,64 @@
+
+To keep our notes in github, it should be in a git repository. So first let make a repository.
+
+```
+mkdir ~/Notescd ~/Notesgit initecho "My first note" > firstnote.mdgit add .git commit -m "Creating first Note"
+```
+
+Done. Now we have created a git repository. Lets push it to github. To do this, create a private git repository in github.
+
+Now, we will link our local repository to github(remote) repository
+
+```
+git remote add origin git@github.com:<your-username>/<repo-name>.gitgit push --set-upstream origin master
+```
+
+Done. So now we have a repository on hand to save our notes. Now we can add/edit notes. Commit the changes and push them to remote. Now, lets automate it ;)
+
+```
+#!/bin/bashcd $(dirname `which $0`)git pullgit add .git commit -m "Notes - $(date)"git pushecho "Done"
+```
+
+Copy this code and save in a file named ‘git-sync.sh’ in your project root directory (~/Notes in this example) and make it executable `chmod +x ~/Notes/git-sync.sh`
+
+Now create a new notes file and save it. Then simply run `sh git-sync.sh` . You can see your note in github immediately.
+
+Now, lets become more lazy..
+
+We are working on code editor, we may save notes right from the editor, and we cannot run `sh git-sync.sh` every time. So it should run every time when we save a file. We will automate this as well.
+
+I’ll show you an example with VS Code — My favourite editor (You continue to read this, and then you can google to find how to do it in your favourite editor)
+
+This [extension](https://marketplace.visualstudio.com/items?itemName=dionmunk.vscode-notes) is what I use to write notes right from VS Code. You can configure your notes directory to your repository. To do this, add following snippet in your VS code `settings.json`
+
+```
+"Notes.notesLocation": "/<your-home>/Notes"
+```
+
+Now you can see your notes added in Notes repository are visible in editor itself. Now we can edit your notes right from VS Code.
+
+![](https://miro.medium.com/v2/resize:fit:700/1*QkafNu6DTqJb8ym_nllI0g.png)
+
+Seeing our first note in VS code
+
+But it is not in sync with github. To sync, we should trigger `git-sync.sh` right. Well.
+
+There is another [extension](https://marketplace.visualstudio.com/items?itemName=pucelle.run-on-save) in VS Code which allows you to do something when a file is saved. Install this extension and then open \`settings.json\`
+
+```
+{   "runOnSave.commands": [      {         "match": "/<your-home>/Notes/.*",         "notMatch": "",         "command": "/<your-home>/Notes/git-sync.sh",         "runIn": "backend",         "runningStatusMessage": "Syncing Notes...",         "finishStatusMessage": "Notes Sync Successful"      }   ],   "runOnSave.statusMessageTimeout": 5000}
+```
+
+Add the following settings to your settings.json file.
+
+Now try to edit something and save the notes. You can see `Syncing Notes...` message in status bar.
+
+![](https://miro.medium.com/v2/resize:fit:709/1*mqlKebkSfRerF04VkQopCA.png)
+
+![](https://miro.medium.com/v2/resize:fit:738/1*q_zQyhF3GjNaoBrC0Q8_AQ.png)
+
+Syncing notes to github repository
+
+Well done. Go to your github repository and see your notes is updated there as well. Cool
+
+This is the easiest way I find to write notes right from the code editor and getting it saved in remote at no cost.

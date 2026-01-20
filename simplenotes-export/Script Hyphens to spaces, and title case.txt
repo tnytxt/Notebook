@@ -1,0 +1,40 @@
+Script: Hyphens to spaces, and title case
+
+```bash
+for file in *; do
+  # Replace hyphens with spaces, then convert to title case
+  new_file=$(echo "$file" | tr -s '-' ' ' | awk '{for(i=1;i<=NF;i++) $i=toupper(substr($i,1,1)) tolower(substr($i,2))}1')   
+ 
+# Rename the file
+  mv "$file" "$new_file"
+done
+```
+
+**Explanation:**  
+
+1. This cmd **`tr -s '-' ' '`**: replaces all hyphens (`-`) with spaces (`' '`)   
+The `-s` option squeezes multiple consecutive hyphens into a single space (if there are multiple hyphens next to each other).
+   
+2. **`awk`**  
+This `awk` command converts the filename to **title case** by capitalizing the first letter of each word and making the rest of the letters lowercase.
+
+3. **`mv "$file" "$new_file"`**:  
+Renames the file from its original name to the newly formatted title-cased name.
+
+**Example:**
+
+If you have files like:
+- `my-file-name.txt`
+- `hello-world-file.txt`
+
+After running the script, they will be renamed to:
+- `My File Name.txt`
+- `Hello World File.txt`
+
+**Notes:**
+- **Underscores** will remain unaffected since we're only replacing hyphens with spaces.
+- **Multiple hyphens**: If the filename contains multiple hyphens, they will be replaced by a single space (`-` → ` `). If you don't want this, remove the `-s` from `tr`.
+
+
+Tags:
+  Bash, FilesDirectories, Scripts

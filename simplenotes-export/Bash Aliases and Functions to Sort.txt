@@ -1,0 +1,29 @@
+Bash Aliases and Functions to Sort 
+
+# Archives
+`function uza() { unzip '*.zip'; }`  
+
+The function you've written, `uza`, is a shell function that attempts to unzip all `.zip` files in the current directory. However, there are a couple of things to note:
+
+1. **Quoting**: The use of single quotes around `*.zip` means that the shell will not expand the wildcard to match files. You should use double quotes or no quotes at all.
+
+2. **Command**: The `unzip` command is used to extract files from a ZIP archive.
+
+Here’s a corrected version of your function:
+
+```bash
+function uza() { unzip *.zip; }
+```
+
+Or, if you want to ensure it works even if there are no `.zip` files (to avoid an error), you can use:
+
+```bash
+function uza() { unzip '*.zip' 2>/dev/null; }
+```
+
+This will suppress error messages if there are no `.zip` files to unzip. 
+
+You can add this function to your shell configuration file (like `.bashrc` or `.bash_profile`) to make it available in your terminal sessions. After adding it, remember to source the file or restart your terminal.
+
+---
+

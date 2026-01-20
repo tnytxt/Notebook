@@ -1,0 +1,11 @@
+My Linux KB Shortcuts
+
+Create new doc and open it in Pluma
+
+`pluma "$(mktemp ~/Documents/Untitled_XXXXXX.txt)"`
+
+Silent screenshots:
+
+    sh -c 'xfce4-screenshooter -f -m -s "$HOME/Pictures/Screens/Screenshot_$(date "+%Y-%m-%d-%H-%M-%S-%3N").png"'
+
+ [Take Silent Screenshots in XFCE ✓](simplenote://note/ab106999-6a92-403f-a7b1-e1334a369ffe)

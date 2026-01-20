@@ -1,0 +1,173 @@
+✏️**13. Rerun Previous Command** 
+
+--add title
+--add tags
+--edit
+
+Use **`sudo !!`**. The symbol **`!!`** is part of Bash history expansion. It expands to the previous cmd.
+
+**12. Run Cmds Without Logging to Histroy**  
+Start the cmd with a **`space`**
+
+**11 Use Argument From the Previous Cmd**  
+Use **`Alt+.`** and it will insert the last argument from previous cmd
+
+
+**10. Replace a Word With Another in Previous Cmd**  
+You've mistyped. Instead of retyping the entire cmd, use correction tool, the caret **`(^)`**symbol.  Let’s say you meant to type **`ping google.com`**, but typed **`ping goggle.com`** mistakenly. Just do: **`^goggle^google`** Bash will run **`ping google.com`**
+
+**9 Swap Characters Before and After the Cursor**  
+Misspelt a word? Just hit **`Ctrl+T`**. It swaps the two characters right around your cursor. Say you typed: **`grpe file.tx`t** but you meant **`grep`**. Just place the cursor on the **`p`**, hit **`Ctrl+T`**, and it becomes **`grep file.txt`** 
+
+
+**8. Using Aliases**  
+Let’s face it. Some Linux commands are just long. And when you're running them often, typing the same flags or full paths gets irritating. Not to mention error-prone. That’s where [aliases](https://www.howtogeek.com/why-you-should-be-using-aliases-in-the-linux-terminal/) come in. They allow you to create your own command shortcuts, using simple names for more complex or frequently used commands.
+
+Creating an alias is as simple as:
+
+```
+alias shortname='actual command here'
+```
+
+Let’s say you’re always running:
+
+```
+ls -lah --color=auto
+```
+
+You can quickly create an alias like this:
+
+```
+alias ll='ls -lah --color=auto'
+```
+
+    ![An example of using command aliases on Linux.](https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2025/05/an-example-of-using-command-aliases-on-linux.png)
+
+[✕ Remove Ads](https://www.howtogeek.com/premium/?ref=ad_removal)
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1528733612385-eer-REPEAT4'); });
+
+Now you can just run `ll` on the terminal to do the whole thing. Note that this will only be valid for the current terminal session. If you want to create a permanent alias, you'll have to add it to the ~/.bashrc file and reload it.
+
+**7 Format Your Output in Columns**
+
+On Linux, we often need to work with data in the command line. Sometimes, the output can be quite messy. Luckily, we have the column command. It can turn that chaos into clean, readable tables of data. The column command formats text into neat columns, aligning things nicely based on whitespace or a custom delimiter. It's perfect when you're dealing with data like lists, CSV, colon-separated data, etc.
+
+Let's see a common example. We can normally list the processes on Linux with:
+
+```
+ps aux
+```
+
+We can format it further using the column command:
+
+```
+ps aux | head -10 | column -t
+```
+
+    ![An example of using the column command to format Linux command output.](https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2025/05/an-example-of-using-the-column-command-to-format-linux-command-output.png)
+
+[✕ Remove Ads](https://www.howtogeek.com/premium/?ref=ad_removal)
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1528733612385-eer-REPEAT5'); });
+
+This tells column to create a table with aligned columns. When using this command, it's best if you have predictable input. If your data is wildly inconsistent, the output might still look a bit rough. Moreover, if your delimiter appears in values, it might throw off the formatting.
+
+**6 Run Multiple Cmds Consecutively**
+
+Sometimes you want to run several commands back to back. Instead of typing them one at a time and waiting, you can chain them together on a single line. Then, control whether they run unconditionally or only if the previous one succeeds.
+
+The semicolon (;) lets you chain commands so they run one after the other, regardless of success or failure.
+
+```
+echo "Updating..." ; sudo apt update ; echo "Done!"
+```
+
+    ![Running multiple Linux commands seperated by semicolons.](https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2025/05/running-multiple-linux-commands-seperated-by-semicolons.png)
+
+In this example, even if **apt update** fails, the final **echo "Done!"** still runs.
+
+The && operator, on the other hand, ensures that each command only runs if the one before it succeeds. This is a smarter way to chain commands.
+
+[✕ Remove Ads](https://www.howtogeek.com/premium/?ref=ad_removal)
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1528733612385-eer-REPEAT6'); });
+
+```
+sudo apt update && sudo apt upgrade
+```
+
+The command after && will only run if the command before it runs successfully. The opposite of && is the || (two vertical bars) operator. When two commands are combined using this symbol, the command on the right will execute only if the command on the left fails. Using && and || helps you debug issues with your [Bash scripts](https://www.howtogeek.com/808593/bash-script-examples/).
+
+    [![A hand using a laptop and Linux mascot coming out of the screen with a gear and some files behind.](https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2024/07/a-hand-using-a-laptop-and-linux-mascot-coming-out-of-the-screen-with-a-gear-and-some-files-behind.jpg)](https://www.howtogeek.com/ways-to-configure-linux-command-line-tools/)Related
+
+##### [5 Ways to Make Linux Commands Work the Way You Want](https://www.howtogeek.com/ways-to-configure-linux-command-line-tools/ "5 Ways to Make Linux Commands Work the Way You Want")
+
+You don't really know the full power of Linux until you can tweak your toolset.
+
+Posts [2](https://www.howtogeek.com/ways-to-configure-linux-command-line-tools/#threads "Total Posts")
+
+
+**4 Go to the Previous Directory**
+
+I often find myself jumping back and forth between two directories. Typing the full path repeatedly is annoying. So this neat little trick was a lifesaver for me:
+
+```
+cd -
+```
+
+This command sends you to the previous working directory, just like a back button in your [Linux file system](https://www.howtogeek.com/117435/htg-explains-the-linux-directory-structure-explained/). Let’s say you start in:
+
+```
+/home/user/projects/website
+```
+
+Then you go to "~/Downloads." Now, if you run the **cd -** command, you’re instantly back in "/home/user/projects/website." And if you run cd - again, you go back to "~/Downloads."
+
+[✕ Remove Ads](https://www.howtogeek.com/premium/?ref=ad_removal)
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1528733612385-eer-REPEAT8'); });
+
+    ![Using the cd - command to jump between two directories.](https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2025/05/using-the-cd-command-to-jump-between-two-directories.png)
+
+**3 Freeze Unfreeze Your Terminal**
+
+If you’ve ever hit Ctrl+S in a terminal out of habit, trying to save something, you may have found your terminal to be stuck. Don't worry. Your system didn't crash. Your keyboard isn’t broken either. In the Linux terminal, Ctrl+S sends a software flow control signal called XOFF. This tells the terminal to pause output, effectively freezing it.
+
+To unfreeze the terminal, simply hit Ctrl+Q. This sends XON, the resume output signal, and unfreezes your terminal instantly.
+
+But why does this even exist? It’s a legacy feature from when terminals communicated over slow serial lines. It allowed you to pause scrolling text before it overflowed the screen. But nowadays, it’s mostly just a trap for people trying to save something or type fast.
+
+**2 Clear the Terminal Screen**
+
+You’re deep into a terminal session, the screen is filled with output from commands, logs, error messages, or whatever mess you just created. You could scroll, or manually type "clear." But there's a faster way. Just hit Ctrl+L. This will clean your terminal screen instantly.
+
+The difference between using the clear command and this shortcut is that, if you use the clear command, you won't be able to scroll up and see the previous commands. If you use Ctrl+L, then you can still scroll up to see the previous commands you issued, which can be useful.
+
+    [![Linux Laptop with a terminal open.](https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2024/05/linux-laptop-with-a-terminal-open.jpg)](https://www.howtogeek.com/these-linux-commands-showed-me-how-much-better-life-is-off-windows/)Related
+
+##### [These 10 Linux Commands Showed Me How Much Better Life Is Off Windows](https://www.howtogeek.com/these-linux-commands-showed-me-how-much-better-life-is-off-windows/ "These 10 Linux Commands Showed Me How Much Better Life Is Off Windows")
+
+Life's better off Windows—and Linux is ready to prove it.
+
+**1 Create Nested Directories**
+
+Say you're starting a project and you need to create multiple directories, one inside the other. Creating each parent directory and then the subdirectories is quite cumbersome. Instead, consider using the -p flag in the mkdir command. This allows you to create subdirectories inside the parent directories using a single command.
+
+```
+mkdir -p rootfolder/client/components
+```
+
+    ![Making nested directories on Linux.](https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2025/05/making-nested-directories-on-linux.png)
+
+Now, suppose you want to [create multiple subdirectories](https://www.howtogeek.com/275069/how-to-create-multiple-subdirectories-with-one-linux-command/) under one directory. You can do that by wrapping the subdirectories in curly braces.
+
+```
+mkdir -p rootfolder/{client/components,server}
+```
+
+    ![Making multiple subdirectories under one directory on Linux.](https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2025/05/making-multiple-subdirectories-under-one-directory-on-linux.png)
+
+---
+
+There are many more tricks that make [learning the Linux terminal](https://www.howtogeek.com/tricks-to-make-learning-the-linux-command-line-easier/) worth it.

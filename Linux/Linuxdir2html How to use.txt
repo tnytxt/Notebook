@@ -1,0 +1,26 @@
+
+ Naviagte or open a "terminal here" in linuxdir2html folder and run  python linuxdir2html.py
+----
+2. Command Usage Examples:
+    Basic usage:
+        linuxdir2html.py FolderName OutputFilename
+        linuxdir2html.py ~/home/lee/Downloads output
+    Or run with Python:
+        python3 ~/Path/To/linuxdir2html.py ~/Path/To/Directory OutputFilename
+
+This will index the contents of /path/to/content/ and save the output as output.html in the current directory.
+
+3. Extra Options:
+You can use the following optional flags:
+
+    --hidden: Include hidden files and directories.
+    --links: Create HTML links to the files.
+    --symlink: Follow symlinks (use with caution).
+    --silent: Suppress output (errors still shown).
+    --verbose: Show extra terminal output.
+
+Note a: Only use the --symlink flag if necessary.
+Note b: You can now use --startswith and --child parameters. For example:
+    linuxdir2html --startswith 'dev' --child 'Pictures' ~ ~/output
+
+This will select directories starting with 'dev' and the 'Pictures' directory from your home directory. The --startswith filter only applies to the root search directory; all subdirectories and files will still be indexed. The --hidden flag can be used with --startswith.

@@ -1,0 +1,19 @@
+Reinstall Apps In Live Enviroment
+
+"Useful if you have deleted something that prevents your OS from booting."
+
+**CTRL+ALT+F2** to reach the console mode to login with your user and password.
+
+then...
+`sudo apt-get --reinstall name-of package`
+
+then enable it:
+`systemctl enable name-of package`
+
+reboot: 
+`systemctl reboot`
+
+
+
+Tags:
+  Linux, LiveEnviroment, Systemctl

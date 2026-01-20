@@ -1,0 +1,50 @@
+✏️ Common Types of Operators In Linux 
+[edit tags - to fooking many]
+In Linux/Unix-like operating systems, operators are often referred to as **shell operators** or **command operators**. They are used in shell scripting and command-line interfaces to perform various operations. Here are some common types of operators in the context of Linux:
+
+1. **Arithmetic Operators**: Used for mathematical calculations in shell scripts.
+   - `+` (addition)
+   - `-` (subtraction)
+   - `*` (multiplication)
+   - `/` (division)
+   - `%` (modulus)  
+
+2. **Comparison Operators**: Used to compare values, often within conditional statements.
+   - `-eq` (equal to)
+   - `-ne` (not equal to)
+   - `-gt` (greater than)
+   - `-lt` (less than)
+   - `-ge` (greater than or equal to)
+   - `-le` (less than or equal to)
+
+3. **Logical Operators**: Used to combine conditions.
+   - `&&` (logical AND)
+   - `||` (logical OR)
+   - `!` (logical NOT)
+
+4. **Redirection Operators**: Used to redirect input and output.
+   - `>` (redirect output to a file)
+   - `>>` (append output to a file)
+   - `<` (redirect input from a file)
+   - `2>` (redirect error output to a file)
+   - `&>` (redirect both standard output and error)
+
+5. **Pipe Operator**: Used to pass the output of one command as input to another.
+   - `|` (pipe)
+
+6. **Background Operator**: Used to run a command in the background.
+   - `&` (run command in the background)
+
+7. **Command Substitution**: Used to execute a command and substitute its output.
+   - `` `command` `` or `$(command)`
+
+These operators are essential for writing scripts and executing commands efficiently in the Linux shell environment.
+
+More here [Arithmetic Operators](simplenote://note/5aacd960-fed3-40b9-9090-cebacdaf4eeb)
+
+---
+
+Tags:
+  #ArithmeticOperators, #BackgroundOperators, #ComparisonOperators, #Linux
+  #LogicalOperators, #Operators, #PipeOperators, #RedirectionOperators, Bash
+  CmdLine

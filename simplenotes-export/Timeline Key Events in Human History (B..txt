@@ -1,0 +1,82 @@
+Timeline: Key Events in Human History (B.C.)
+
+Prehistoric Era
+
+- 200,000 B.C : Emergence of Homo sapiens in Africa [^1][^4]
+- 62,000 B.C : Bow and arrows with stone points are used [^3]
+- 30,000 B.C : Cro-Magnon humans thrive, creating cave paintings and spreading across Europe [^6]
+- 25,000 B.C : Humans cross the Bering Strait into the Americas[^3][^4]
+- 18,000 B.C : Clay pottery and use of raw metals begin[^3]
+- 10,000 B.C : Humans reach South America's southernmost point; agriculture begins[^3][^5]
+
+
+Neolithic Revolution and Early Civilizations
+
+- 8,000 B.C : Domestication of animals and crops in the Fertile Crescent; first domesticated dog found in Idaho (8400 B.C.)[^5][^2]
+- 7,000 B.C : Earthquake destroys Jericho[^3]
+- 6,500 B.C : Rising seas isolate England from Europe[^3]
+- 6,000 B.C : Beer is brewed in the Near East[^3]
+- 5,500 B.C : Settled societies emerge in Mesopotamia; start of the Bronze Age[^3][^5]
+
+
+Bronze Age Innovations
+
+- 4,500 B.C : Introduction of the plough; copper and bronze metallurgy develop[^3][^5]
+- 4,242 B.C : First year recorded on the Egyptian calendar[^3]
+- 4,000 B.C : Wheel invented; rice farming develops in China[^3]
+- 3,400 B.C : Writing begins; ziggurats are built in Mesopotamia[^2][^3]
+
+
+Early Empires
+
+- 3,100 B.C : Egypt’s 1st Dynasty unites Upper and Lower Egypt[^3]
+- 2,750 B.C : King Gilgamesh rules Uruk; Stonehenge build begins (2400 B.C.)[^3][^2]
+- 1,792 B.C : Hammurabi reigns in Babylon; Shang dynasty begins in China (1766 B.C.)[^3]
+- 1,250–1,200 B.C : Moses leads Israelites out of Egypt (Exodus)[^3]
+
+
+Iron Age Developments
+
+- 814 B.C : Carthage founded by Phoenicians[^3]
+- 776 B.C : First Olympic Games held in Greece[^3]
+- 221 B.C –214 B.C : China unified under Shi Huangdi; Great Wall build begins[^3]
+
+
+Roman Era
+
+- 63–53 B.C : Judea captured by Rome; Battle of Carrhae between Romans and Parthians occurs[^3]
+- 44–27 B.C : Julius Caesar assassinated (44 B.C.), Augustus becomes first Roman emperor (27 B.C.)[^3]
+
+
+Transition to Common Era
+
+- 5 B.C : Birth of Jesus in Bethlehem marks a significant cultural and religious milestone[^3]
+
+---
+
+[^1]: https://australian.museum/learn/science/human-evolution/when-and-where-did-our-species-originate/
+
+[^2]: https://en.wikipedia.org/wiki/Fertile_Crescent
+
+[^3]: https://humanhistorytimeline.com
+
+[^4]: https://en.wikipedia.org/wiki/Early_human_migrations
+
+[^5]: https://en.wikipedia.org/wiki/Neolithic_Revolution
+
+[^6]: https://africame.factsanddetails.com/article/entry-219.html
+
+[^7]: https://www.smithsonianmag.com/science-nature/essential-timeline-understanding-evolution-homo-sapiens-180976807/
+
+[^8]: https://www.britannica.com/question/How-did-Neolithic-technologies-spread-outward-from-the-Fertile-Crescent
+
+[^9]: https://www.newscientist.com/article/dn9989-timeline-human-evolution/
+
+[^10]: https://pmc.ncbi.nlm.nih.gov/articles/PMC2945812/
+
+
+
+Tags:
+  A.D, AncientHistory, B.C, BronzeAge, Civilizations, CommonEra, Early
+  EearltEmpires, Empires, Eras, History, HumanHistory, IronAge, Neolithic
+  Prehistoric, Romans, TimeLines, ToTag

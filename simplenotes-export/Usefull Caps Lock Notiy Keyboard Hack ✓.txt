@@ -1,0 +1,18 @@
+Usefull "Caps Lock" Notiy Keyboard Hack ✓
+
+Enable a notification for Caps Lock
+
+Open keyboard settings > application shortcuts > add new shortcut > enter below cmd.
+
+`sh -c 'sleep 0.2; notify-send -t 5000  -i caps-lock "Caps Lock" $(xset -q | grep -oP "Caps Lock:\s*\K(off|on)")'`
+
+<a href="https://ibb.co/dTCDgxw"><img src="https://i.ibb.co/vFykYR6/keyboadr-hack-caps-lock.png" alt="keyboadr-hack-caps-lock" border="0"></a>
+
+---
+
+
+
+
+Tags:
+  CapsLock, Cmds, Hacks, Keyboard, KeyboardShortcuts, Linux, Notifications
+  Shortcuts

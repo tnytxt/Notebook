@@ -1,0 +1,33 @@
+✏️ tags in grammar—especially in the context of part-of-speech (POS) tagging (for example, in computational linguistics or natural language processing)—here are some frequently used tags (using the Penn Treebank tag set as an example):
+
+- CC — Coordinating conjunction (e.g., and, but, or)
+- CD — Cardinal number (e.g., one, 2, three)
+- DT — Determiner (e.g., the, a, this)
+- EX — Existential there (e.g., there is)
+- FW — Foreign word (e.g., bonjour)
+- IN — Preposition or subordinating conjunction (e.g., in, of, like)
+- JJ — Adjective (e.g., happy, blue)
+- JJR — Adjective, comparative (e.g., happier, bigger)
+- JJS — Adjective, superlative (e.g., happiest, biggest)
+- NN — Noun, singular or mass (e.g., dog, car)
+- NNS — Noun, plural (e.g., dogs, cars)
+- NNP — Proper noun, singular (e.g., London, Alice)
+- NNPS — Proper noun, plural (e.g., the Smiths)
+- MD — Modal (e.g., can, may, should)
+- PRP — Personal pronoun (e.g., I, you, they)
+- PRP$ — Possessive pronoun (e.g., my, your, their)
+- RB — Adverb (e.g., quickly, silently)
+- RBR — Adverb, comparative (e.g., faster, better)
+- RBS — Adverb, superlative (e.g., fastest, best)
+- VB — Verb, base form (e.g., run, write)
+- VBD — Verb, past tense (e.g., ran, wrote)
+- VBG — Verb, gerund or present participle (e.g., running, writing)
+- VBN — Verb, past participle (e.g., run, written)
+- VBP — Verb, non-third person singular present (e.g., run, write)
+- VBZ — Verb, third person singular present (e.g., runs, writes)
+
+These tags are commonly used to annotate text for various language processing tasks.
+
+
+Tags:
+  ToEdit

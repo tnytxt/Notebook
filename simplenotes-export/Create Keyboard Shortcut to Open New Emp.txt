@@ -1,0 +1,54 @@
+Create Keyboard Shortcut to Open New Empty Doc in Pluma ✏️
+
+--add tags--
+
+You can create a custom keyboard shortcut that runs a shell command to create a new empty file and open it in Pluma.
+
+**Follow these steps:**
+
+**1. Decide on the Command**
+
+You want a command that creates a new empty file (for example, in your `~/Documents` folder) and opens it in Pluma. Here’s a suitable command:
+
+```sh
+pluma "$(mktemp ~/Documents/Untitled_XXXXXX.txt)"
+```
+
+- `mktemp ~/Documents/Untitled_XXXXXX.txt` creates a unique named empty file in your Doc folder.
+- `pluma ...` opens that file in Pluma.
+
+**2. Add the Shortcut in Your Desktop Environment**
+
+For Xfce:
+
+- Go to **Settings > Keyboard > Application Shortcuts**.
+- Click **Add**, paste the command, and set your key.
+
+**3. Test the Shortcut**
+
+Press your chosen key combination. Pluma should open a new, uniquely named empty document in your Documents folder.
+
+---
+
+**Note:**  
+- The shortcut setup interface may vary slightly by desktop environment, but the process is similar[3][4][5].
+- The command uses `mktemp` to avoid overwriting existing files and to ensure each new document is unique.
+
+---
+
+If you want the file to always have the same name (and be overwritten), use:
+
+```sh
+touch ~/Documents/Untitled.txt && pluma ~/Documents/Untitled.txt
+```
+
+But using `mktemp` is safer for multiple new documents.
+
+[1] https://ubuntu-mate.community/t/key-bindings-in-pluma/26895
+[2] https://dwaves.de/2024/03/10/gnu-linux-pluma-text-editor-and-mate-desktop-hotkeys-shortcuts/
+[3] https://ubuntu-mate.community/t/pluma-text-wrapping-shortcut/10099
+[4] https://bbs.archlinux.org/viewtopic.php?id=229966
+[5] https://www.reddit.com/r/linux4noobs/comments/mo0gnm/create_keyboard_shortcuts_on_linux/
+[6] https://github.com/mate-desktop/pluma/issues/181
+[7] https://forums.linuxmint.com/viewtopic.php?t=236540
+[8] https://askubuntu.com/questions/1302829/how-do-i-select-the-text-on-pluma-app-from-cursor-position-to-the-end-beginning

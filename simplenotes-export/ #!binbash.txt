@@ -1,0 +1,21 @@
+> #!/bin/bash
+> 
+>  Simple menu to choose bagels command CHOICE=$(zenity --list --title="Bagels Launcher" --column="Action" \
+>     "Start bagels" \
+>     "Start bagels with data at ./" \
+>     "Locate database" \
+>     "Locate config")
+> 
+> case "$CHOICE" in
+>     "Start bagels")
+>         bagels
+>         ;;
+>     "Start bagels with data at ./")
+>         bagels --at "./"
+>         ;;
+>     "Locate database")
+>         bagels locate database
+>         ;;
+>     "Locate config")
+>         bagels locate config
+>         ;; esac

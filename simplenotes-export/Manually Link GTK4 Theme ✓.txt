@@ -1,0 +1,18 @@
+Manually Link GTK4 Theme ✓
+
+Easy:
+Use Libadwaita theme changer. [Download here](https://drive.google.com/file/d/1jdAg7jI9ubtX2LKDID9U6vQjkmKnqFD-/view?usp=drive_link)
+
+Manually Linking a gtk4 theme to `./config/gtk4.0`
+
+Unless you actually have the ${THEME_DIR} environment variable set somewhere you need to change that to the actual path of your theme directory. I put my themes in ${HOME}/.themes so I would use
+
+ln -sf ~/.themes/theme_name_here/gtk-4.0/assets ~/.config/gtk-4.0/
+ln -sf ~/.themes/theme_name_here/gtk-4.0/gtk.css ~/.config/gtk-4.0/
+ln -sf ~/.themes/theme_name_here/gtk-4.0/gtk-dark.css ~/.config/gtk-4.0/
+
+You don't have to link the gtk-2.0 or gtk-3.0 directory, just the gtk-4.0 directory.
+
+
+Tags:
+  CSS, GTK, GTK4, Libadwaita, Linux, Themes

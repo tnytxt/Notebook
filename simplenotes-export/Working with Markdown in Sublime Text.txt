@@ -1,0 +1,38 @@
+Working with Markdown in Sublime Text
+
+This note covers working with Markdown in the Sublime Text editor. I’ve tried two ways to edit Markdown files in the Sublime Text (ST) editor. One is to use MarkdownLivePreview + Markdown Extended to get split panels in the ST editor. One panel for the source text and another panel for the rendered content. The second way is to use MarkdownPreview + LiveReload to render in a browser with “live” reload. 
+
+**Install the Relevant ST Plugins**
+
+To install a package in ST, use `ctrl + shift + P` to open the command palette. Select `Package Control` Install Package and then select the relevant package (e.g., MarkdownPreview). 
+
+- Packages to install:
+	- MarkdownPreview
+	- LiveReload
+	- PackageResourceViewer
+	- MarkdownLivePreview
+	- Live Reloading on a Browser
+
+To preview the markdown content on a browser, use `ctrl + shift + P` to open the command palette. Select `Markdown Preview`, Preview in Browser and then choose `markdown`.
+
+For `live` reloading -- reloads on `ctrl + save` -- some additional steps are required. First, the `LiveReload` Sublime Text package is required. Install `LiveReload` and restart ST. Then open the command palette again and select `LiveReload`: Enable/disable plug-ins and choose Simple Reload with delay (400ms). The preview on the browser should now reload with every save.
+
+**Live Reloading in Sublime Text Editor**
+
+To set up `live reload` in ST itself, install the `MarkdownLivePreview` + `Markdown Extended` packages. To start the preview panel, open command palette and select `MarkdownLivePreview`: Open Preview. The preview panel will show actual live updating of the content as I type.
+
+Resources
+
+[MarkdownPreview](https://packagecontrol.io/packages/MarkdownPreview)  
+[LiveReload](https://packagecontrol.io/packages/LiveReload)  
+[Using MarkdownPreview](https://facelessuser.github.io/MarkdownPreview/usage/)  
+[MathJax] (https://www.mathjax.org/)  
+[Custom delimiters for in-line math] (https://docs.mathjax.org/en/latest/input/tex/delimiters.html#tex-and-latex-math-delimiters)  
+[PackageResourceViewer] (https://packagecontrol.io/packages/PackageResourceViewer)
+
+---
+
+
+
+Tags:
+  #TextEditing, HowTos, Markdown, PackageInstalls, Plugins, SublimeText

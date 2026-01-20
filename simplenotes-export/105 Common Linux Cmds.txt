@@ -1,0 +1,143 @@
+105 Common Linux Cmds  
+
+Basic Cmds
+1. ip (from Iproute2) : controls TCP/IP networking, traffic control.
+2. ls : lists dir contents.
+3. df : displays disk space usage.
+4. du : estimates file space usage.
+5. free : displays memory usage.
+6. scp : securely copies files between systems.
+7. find : locates files based on criteria.
+8. ncdu : disk usage for Unix systems.
+9. pstree : displays tree of processes.
+10. last : shows listing of last logged-in users.
+11. w : shows list of currently logged-in user sessions.
+12. grep : searches a file for a pattern, displays matching lines.
+13. uptime : show system uptime, load average.
+14. top : provides overall system view.
+15. vmstat1 : show sys mem, processes, interrupts, paging, block I/O, CPU info
+16. htop : interactive process viewer, manager.
+
+Network Cmds
+18. iftop : network traffic viewer.
+19. nethogs : network traffic analyzer.
+20. iotop : interactive I/O viewer for storage r/w activity.
+21. iostat : storage I/O statistics.
+22. netstat : network statistics.
+23. ss : investigate sockets.
+24. atop : Linux server performance analysis.
+25. Glances, nmon : alternatives to htop, top.
+
+File Mgmt  
+26. ssh : secure cmd-line access to remote Linux systems.
+27. sudo : execute cmds with admin privilege.
+28. cd : dir navigation.
+29. pwd : showscurrent dir location.
+30. cp : copies files, folders. [See here for examples](https://t.ly/Y3S-S)
+31. mv : moves files, folders.
+32. rm : removes files, folders (use with caution!).
+33. mkdir : creates new directories.
+34. touch : updates the access, modification dates of a file, dir.
+
+Help, Info
+35. man : Read system ref manuals.
+36. apropos : searches man page names, descriptions.
+
+Archiving, Compression
+37. rsync : remote file transfers, syncing.
+38. tar : archiving utility.
+39. gzip : file compression, decompression.
+40. bzip2 : similar to gzip, uses a different compression algorithm.
+41. zip : for packaging, compressing files.
+
+Finding Things
+42. locate : search files in Linux.
+43. ps : iinfo about currently running processes.
+
+Scripting, Scheduling
+44. Bash scripts : create scripts to automate tasks. e.g : ./bashscript.sh
+45. cron : set up scheduled tasks to run.
+
+Network Mgmt
+46. nmcli : cmd-line tool for controlling NetworkManager.
+47. ping : sends ICMP ECHO_REQUEST to network hosts.
+48. traceroute : checks route packets take to a specified host.
+49. mtr : network diagnostic tool.
+50. nslookup : query Internet name servers (NS) interactively.
+51. host : perform DNS lookups.
+52. dig : DNS lookup utility.
+
+Downloading Files
+53. wget : retrieves files over HTTP, HTTPS, FTP,, FTPS.
+54. curl : transfers data using various network protocols
+
+Disk Mgmt
+55. dd : converts, copies files (use with caution!).
+56. fdisk : manipulates disk partition table.
+57. parted : for creating, manipulating partition tables.
+58. blkid : locates, prints block device attributes. 
+59. mkfs : builds Linux file system.
+60. fsck : tool for checking consistency of a file system.
+
+File Sys, User Mgmt  
+61. whois : Queries WHOIS info on domains, IPs, network resources.
+62. nc : Networking utility for reading from, writing to network connections.
+63. umask : Sets default permissions for newly created files, directories.
+64. chmod : Changes permissions of files, directories.
+65. chown : Changes owner, group of files, directories.
+66. chroot : Changes root dir of a process, its children, create restricted enviro.
+67. useradd : Creates new user account.
+68. userdel : Deletes user account, its associated files.
+69. usermod : Modifies attributes of existing user account.
+
+Text Editing, Viewing
+70. vi : A powerful text editor.
+71. cat : Concatenates, displays file contents.
+72. tac : Concatenates, displays file contents in     reverse order.
+73. more : Displays file contents one page at a time.
+74. less : Similar to `more`, but with features like searching, scrolling.
+75. tail : Displays the last part of a file.
+
+Sys Iinfo, Process Mgmt
+76. dmesg : Displays kernel ring buffer messages.
+77. journalctl : Queries the systemd journal for system logs.
+78. kill : Sends signal to a process to terminate it.
+79. killall : Sends signal to all processes with a specified name.
+80. sleep : Pauses execution for a specified number of seconds.
+81. wait : Waits for background jobs to finish.
+82. nohup : Runs cmd, ignores hangup signals.
+83. screen : A terminal multiplexer for managing multiple sessions.
+84. tmux : Another terminal multiplexer.
+85. passwd : Changes user's password.
+86. chpasswd : Changes password for multiple users.
+87. mount/umount : Mounts, unmounts file systems.
+88. systemctl : Controls systemd system, service manager.
+89. clear : Clears terminal screen.
+90. env : Sets or displays enviro variables for a cmd.
+
+Admin Tools
+91. cheat : A cmd-line tool for creating, viewing cheatsheets.
+92. tldr : A simplified man page reader.
+93. bashtop : An interactive process viewer, system monitor.
+94. nload : A network traffic monitoring tool.
+95. history : Displays a list of previously executed cmds.
+96. sar : Collects, reports system activity statistics.
+
+Text Processing, Automation
+97. lsof : Lists open files.
+98. awk : A powerful text processing language.
+99. sed : A stream editor for text manipulation.
+100. watch : Executes a cmd periodically, displays the output.
+101. crontab : Schedules tasks to run at specific times.
+102. alias : Creates aliases for cmds.
+
+Hardware Info
+103. lspci : Lists PCI devices.
+104. lsusb : Lists USB devices.
+105. ln : Creates symbolic or hard links 
+106. diff : Compares files line by line.
+
+
+
+Tags:
+  CmdLineTools, Cmds, Linux

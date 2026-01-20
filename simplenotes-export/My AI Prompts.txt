@@ -1,0 +1,10 @@
+My AI Prompts
+
+- "Generate a vertical list of numbers from 152 to 200, with each number followed by a full stop and a space." 
+💡 You can also use an online text tool [generate-list-numbers](https://textmechanic.com/text-tools/numeration-tools/generate-list-numbers/)
+-  
+
+
+
+Tags:
+  A.I.Prompts, AI
