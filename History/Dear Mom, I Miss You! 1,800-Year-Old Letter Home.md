@@ -14,9 +14,9 @@ An American Graduate student from Rice University, has translated fragments of a
 
 Grant Adamson, a student in the school’s religious studies program, believes that an ancient infantryman scrawled the message to his family on a sheet of papyrus sometime around the year 212. The author signed the letter “Aurelius Polion” and likely penned the 1,800-year-old note while stationed in the Roman province of [Pannonia Inferior](http://en.wikipedia.org/wiki/Pannonia_\(Roman_province\)) in modern-day Hungary.
 
-[![All that remains of Egyptian-born Aurelius Polion is this letter home, written in the early 3rd Century. Photo courtesy of the University of California, Berkeley.](https://i0.wp.com/militaryhistorynow.com/wp-content/uploads/2014/03/soldier_letter_main.jpg?resize=400%2C403&ssl=1)](https://i0.wp.com/militaryhistorynow.com/wp-content/uploads/2014/03/soldier_letter_main.jpg?ssl=1)
+![](https://github.com/tnytxt/notebook/blob/main/Assets/letter-home.png)
 
-Dating back about 1,800 years, this letter was written, mainly in Greek, by Aurelius Polion, an Egyptian man who served with the legio II Adiutrix legion around modern-day Hungary. In the letter, discovered more than a century ago in the Egyptian town of Tebunis and only recently translated, Polion pleads with his family to respond. (Image credit: Image courtesy Bancroft Library at the University of California Berkeley) 
+Dating back about 1,800 years, this letter was written, mainly in Greek, by Aurelius Polion, an Egyptian man who served with the legio II Adiutrix legion around modern-day Hungary. In the letter, discovered more than a century ago in the Egyptian town of Tebunis and only recently translated, Polion pleads with his family to respond. (Image courtesy of Bancroft Library at the University of California Berkeley) 
 
 All that remains of Egyptian-born Aurelius Polion is this letter home, written in the early 3rd Century. Photo courtesy of the University of California, Berkeley.
 
