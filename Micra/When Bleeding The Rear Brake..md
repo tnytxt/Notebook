@@ -1,0 +1,1 @@
+The load balancing valve needs to be open. Do this by putting the wheels/rear suspension under tension otherwise system wont bleed

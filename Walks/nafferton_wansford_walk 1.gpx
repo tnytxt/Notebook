@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="ChatGPT">
+  <trk>
+    <name>Nafferton to Wansford Circular Walk</name>
+    <trkseg>
+      <trkpt lat="54.0167" lon="-0.3935"><name>Nethergate, Nafferton (Start)</name></trkpt>
+      <trkpt lat="54.0148" lon="-0.3875"><name>Backcarr Lane</name></trkpt>
+      <trkpt lat="54.0125" lon="-0.382"><name>Hords Lane</name></trkpt>
+      <trkpt lat="54.0105" lon="-0.377"><name>Carr Lane (towards Wansford)</name></trkpt>
+      <trkpt lat="54.009" lon="-0.37"><name>Wansford Lane Bridge</name></trkpt>
+      <trkpt lat="54.0115" lon="-0.3755"><name>Nafferton Beck Footpath</name></trkpt>
+      <trkpt lat="54.015" lon="-0.386"><name>New Bridge Lane</name></trkpt>
+      <trkpt lat="54.017" lon="-0.392"><name>Priestgate</name></trkpt>
+      <trkpt lat="54.018" lon="-0.3945"><name>Crystal Mere (Finish)</name></trkpt>
+    </trkseg>
+  </trk>
+</gpx>
