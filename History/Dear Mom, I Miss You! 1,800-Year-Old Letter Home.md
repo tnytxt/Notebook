@@ -1,11 +1,13 @@
-# "Dear Mom, I Miss You!": A Roman Soldier's 1,800-Year-Old Letter Home
+# "Dear Mother, I Miss You!": A Roman Soldier's 1,800-Year-Old Letter Home
 
 [militaryhistorynow](https://militaryhistorynow.com/)
 
 
  **“His emotions are really no different than those of soldiers today who are longing to go home.”**  
 
-![](https://github.com/tnytxt/notebook/blob/main/Assets/roman-solider-win-sucks.jpeg)
+<div align="left">
+    <img src="https://github.com/tnytxt/notebook/blob/main/Assets/roman-solider-win-sucks.jpeg" width="500" height="500" alt="Image description">
+</div>
 
 
 An American Graduate student from Rice University, has translated fragments of a letter written by a 3rd Century Roman soldier, according to Rice University in Houston, Texas.
