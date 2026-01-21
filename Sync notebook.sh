@@ -1,1 +1,0 @@
-/media/Storage/git clones/notebook/Linux/Sync notebook.sh
