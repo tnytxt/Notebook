@@ -6,6 +6,8 @@ The 1 degree of latitude is located above equator and the distance from equator 
 
 The equator is about 24,800 miles. There are are 360° in a circle. Divide 24,800 miles by 360° to get 68 8/9 miles per degree.
 
+![Longitude and latitude](https://github.com/user-attachments/assets/ef7a0183-0d6e-472e-8682-f4219de8954e)
+
 
 A degree of latitude is 60 nautical miles. That’s why aviation still use knots (nautical miles per hour). A navigational chart does not need a scale; the latitude annotation at the right edge automagically provides that.
 
