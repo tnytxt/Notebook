@@ -2,7 +2,7 @@
 
 A teacher entered the classroom and found the chair he was supposed to sit in hanging from the ceiling.
 
-![main-qimg-chair](https://github.com/user-attachments/assets/07b0d5aa-5ce0-4d75-9f98-f4b9d16ed460)
+![main-qimg-chair](https://github.com/user-attachments/assets/fa9a0fad-2cbc-4d28-b951-7253e92f6a09)
 
 He looked at the students and smiled.Without saying a word, he approached the board and wrote:
 "Test: 15 minutes, 30 points"
