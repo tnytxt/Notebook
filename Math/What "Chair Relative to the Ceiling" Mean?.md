@@ -1,6 +1,6 @@
 
 
-**"A teacher entered the classroom and found the chair he was supposed to sit in hanging from the ceiling."**  
+### "A teacher entered the classroom to see a chair hanging from the ceiling."
 
 ![main-qimg-chair](https://github.com/user-attachments/assets/fa9a0fad-2cbc-4d28-b951-7253e92f6a09)
 
@@ -11,7 +11,7 @@ Question 1. Calculate the distance between the chair and the floor in centimeter
 
 Question 2. Calculate the angle of inclination of the chair relative to the ceiling and show the calculations performed (1 point).
 
-Question 3. Write the name of the student who hung the chair from the ceiling and the names of the friends who helped him. (28 points)
+Question 3. Write the name of the student who hung the chair and the names of the friends who helped him. (28 points).
 
 ---
 
