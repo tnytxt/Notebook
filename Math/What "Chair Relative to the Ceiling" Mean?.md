@@ -1,6 +1,6 @@
 
 
-A teacher entered the classroom and found the chair he was supposed to sit in hanging from the ceiling.
+**"A teacher entered the classroom and found the chair he was supposed to sit in hanging from the ceiling."**  
 
 ![main-qimg-chair](https://github.com/user-attachments/assets/fa9a0fad-2cbc-4d28-b951-7253e92f6a09)
 
